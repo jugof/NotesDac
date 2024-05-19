@@ -1,0 +1,146 @@
+
+Online Application Title: OnlineShopping Application
+Team:			Ravi Tambade
+			Ashwini Thorat
+			Vishali C
+			Narendra Sir
+
+SRS Document:
+
+
+
+
+ER listing:
+
+
+
+Application Architecture:
+
+	Application = 
+			Logic 	+  data
+
+	Logic =(UI Logic  + Business Logic + DataAccess Logic) 
+	Data  =( structured data , Non Structured data)
+
+
+Online Application:
+
+	    Web based Application
+		    deployed on web and accessed by users from anywhere
+
+		    ShoppingApplication------Web portal-- used remotely by endusers,
+							                   vendors,
+								           employees
+
+Logic:
+     UI Logic:
+
+		 Web Pages +  HTML controls + Web Components (Angular)
+		 Navigation : (UI Routing) HTML Links, Routing mechansim
+		 Data Binding : DOM  + JSP tags (JSTL) + {{}} ngModel,
+		 
+		 Event Binding : 				action handlers
+					
+				 
+			HTTP Request:	GET:----------------Doget
+					POST:---------------Dopost
+					PUT:
+					DELETE:
+
+              Client Side UI----------------HTML, CSS, javaScript, bootstrap
+					        UI (Client Side UI Framework)
+						Angular, React, Vue,..........
+
+	Web Logic: ( Server Side processing)
+
+		Server UI---------------- JSP, servelet,  ( classical java web technology)
+				 spring MVC  ( to take advantage of MVC design Pattern using ready made frmwrk)
+						 Model, View, Controller
+						 Router
+						 (SOA  layer)
+						Spring Boot api
+						CRUD REST API
+						ORM Technique:Hibernate  ( ORM)
+						       ,JPA
+				         	JDBC  ( database Connectivity)
+		State management
+				
+		 	Client Side state management
+				cookies, querystring, form collection, hidden variables
+				 local storage, session storage, Web sql, 
+
+			Server Side state management
+				session, Cache,
+				database
+	Business Logic:
+		
+	
+		Java console application will be used to test your business Logic
+
+		Core Java:
+
+		will contain
+		 1.business query processing
+		 2.business operation managment
+		 3.Business data manipulation
+		
+	   from Online shopping point of view
+
+		Modules:
+
+		1.ProductCatalog
+				: Product Inventory
+					create, insert, delete,
+				: Produdct Category 
+					 get all
+					 get by category
+					
+		2. Shopping Cart:	
+				Adding to cart
+				Removing from cart
+				getting all elemnt from cart
+				 ,,,etc.
+		3.OrderProcessing:
+		
+		4.BI:
+		
+		5.CRM:
+		
+		6.Payment Processing:
+
+
+
+Data :
+		 Structured Data
+			 RDBMS
+				fields
+				tables
+				contstraints
+
+				Add some dummy records in your newly created database
+
+				write  reusable SQL queries against those database tables to check bussiness Queries
+				Test those SQL queries on existing dummy database you built
+
+			List of tables
+				 Customers
+					Fields:
+					   ID, FirstName, LastName, email, contact number,,,,,,,,
+					primary Key:
+
+				 Products
+					Fields:
+	
+				 Orders
+				 OrderDetails
+			 	 Payments
+				 claims
+				 Employess
+				 Shipments	
+
+
+			Create .sql file
+			  ddl.sql--->file will contain   DDL commands for Table creation
+			  dml.sql--->file will contain   insert commands for filling dummy data to tables which we have created
+			  bqyery.sql-->file will conatin   SQL queries mapped for business queries
+		

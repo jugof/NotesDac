@@ -1,0 +1,288 @@
+Owner: Event Management company
+
+Event Management System
+
+	admin------staff
+	vendor-----individual, service provider
+	Customer---- indivial, another organization
+
+	Vendor profile 
+	Vendor services
+	Vendor charges for service
+
+	Payment Processing---- Mastercard, Visa, PayPal
+		payments:
+		
+		Bank table---- accountholders records
+				acctid, accountholder, Balance
+__________________________________________________________________________________________________________	
+
+
+
+ASDM:
+
+Day 1:
+
+	Introduction to Software Engg.
+		Software Architecture
+		Software Engg.
+		Phases of Software Development
+		SRS	
+	SDLC
+		Water fall Model
+		Spiral Model
+
+Day 2:
+	
+	Agile Methodology
+		Agility 
+		Why Agile Methodology 
+		Jira software for Project Management
+			( Scrum)
+
+	Object Oriented Approach
+		UML diagrams
+		
+Day 3: 
+Day 4:
+Day 5:	
+	Cloud Computing
+		Why Cloud computing?
+		SAAS
+		PAAS
+		IAAS
+		AWS---Public Cloud
+		Virtualization
+		Containers
+		Docker
+		Kubernetes
+Day 6:
+	GitHub
+		Code repository
+		Using GitClient
+		Source cotrol Managment
+Day 7:
+	DevOps
+		What do you mean by  CD/ CI
+		CD/CI piple Line
+		Why DevOps
+		Tools used for DevOps
+		Jenkins
+Day 8:	
+	Software Testing
+		Importance of  S T
+		Types of Software Testing
+		Testing tools: Junit, Jasmine, 
+		Selenim Web Driver
+		How write Unit Test, UI Testing
+
+		
+
+
+
+
+
+
+Agile Methodology:
+	
+	Software Developent Process
+		
+	Phases:
+			Requirement gathering
+			Planning
+			Analysis & Design
+			Development
+			Testing
+			Deployment
+			Maintainance
+	
+	0. Waterfall Model
+		Requirement gathering---- SRS------ Locked
+		 Planning---Plan----Locked
+		  Analysis---Design---Locked
+		    Development-- Build ( compiled code)--- Locked
+			Testing-----test cases  Unit testing
+				 ---run tests against compiled code----results are share back to Dev.       				  Goahead
+			 Deployemnt:deploy bindary of your solution to customer enviornment
+		          Maintainance: Customer Support for ongoing application modification.
+	Rule:
+	80%-------20 %
+	
+	100 softwares  featuresare developed using Waterfall model--------- budget, manpower, time , resources
+	80 softwares feartures are not used ----------------------------------budget, manpower, time , 										resources
+	20 software are used under manintainance Mode------------------budget, manpower, time , 						resources
+
+	 ViveK:
+		then what is the use of waterfall model?? where we can use it efficiently??
+
+	Pros and cons of Waterfall Model
+		Pros: one time work
+		      step by step process
+		      Less time for delivery	
+		cons:
+		      not possbile to accept new changes
+		      No reverse 
+		      not suitable for Online Applications
+		      very difficult to modify,  
+
+
+	DFA: Data First Approach
+	CFA: Code First Approach 
+	EFA: Entity First Approach
+	TDD: Test Driven Development---
+
+			First  Requirements are gathers
+			second Quality plan is defined
+			third   QA Team will design Test cases
+			Fourth  Testing Team will build unit test, test cases
+			fitfh   Testing Enviornment is prepared 
+			sixth   Wait for Software Develpment to provide Soulution
+			Seventh	Now using Mannual testing or Automation Test the solution Given by Development Team
+			Eight	: Certify the product
+
+	1.Spiral Model Impementation:
+		:	Step by Step execution
+		
+	 Todays bussinesses are depend on customers expectations
+	 their bussiness applications should accomodate changes expected to deliver service to end users.
+	 Application need to flexible:
+		Applications can be extended with new features
+		Application existing features can be deprecated or updated.
+	 Application need to be agile
+	 Agility:
+		fast moving
+		 (Dynamic)
+		   More adaptive  to changes expected:
+	
+	Being as IT :
+		Product:
+			Software
+				Past:
+				    2000, 2005, 2008 ,2012,  2015
+				    Word, excel , powerpoint  Microsoft Office Suite
+				    office 2003, office 2007, office 2013
+
+				 : Software Product------Visual STudio, Eclipse, Talley. photoshop ,OS
+
+				 : Online services---- facebook
+						       Googlepay
+						       Whatsapp
+						       Amazon
+						       Office365------ cosumers are subscribing to 
+										online solutions
+
+
+
+
+		Service Provider: Microsoft
+				  Google company
+				  amazon company
+				 
+				 will provide: Infrastructure-------Data center, Azure cloud platform
+				 will provide: Plaform--------------Online Enviornement for web hosting,
+				 will provide: Oniline Software ----Office 365
+				 will be responsible for keeping software uptodate
+		
+			Todays software are online softwares
+			Online softwares are automatically updated with informing to end user
+			Online softwares are continously developed , tested, deployed 
+			Online software are continously improved by Service provider (Microsoft)
+
+		Microsoft company who  is buidling, testing ,deploying this office application
+			with the help of 
+                         More than 15000 team members responsible for keeping this Office always updated 
+					with new functionalities, deprecating unwanted features,
+					focusing on performance,durability, scalability of 
+			  Microsoft Engg.
+			  Microsoft Architects,
+			  Microsoft IT pros
+			  Microsoft Testers
+			  Microsoft Product owners
+			  Microsoft Product Teams
+				
+
+			Microsoft :  windows ----- OS -----MS DOS---- Windwos 3.1,---------- Windows 10-------3
+				     office-------product---word, excel, powerpoint----------Office 365-------2
+				     Cloud------public cloud--Azure---------------------------Azure-----------1
+				     Hardware---
+
+
+		Service:
+			
+			Service Oriented Architecture  followe
+
+		Spiral Model
+			followed framework Agile Methodology
+				adopted Scrum
+					Team started using  Jira
+					 Thier team started using Github, Cloud, Distributed team netework for service development
+													       service deployment
+				started practicsing
+					CD/ CI--- continoue process of development and Deployment
+
+	
+		Java is a culture------- in 1990......
+		Java was developed for building internet based application ------1990
+		world who wanted to build applications for internet adopted Java........1192-----
+		Microsoft did not tapped opportunity of internet boom early , 
+			because their foucs was on Desktop computer
+
+		accepted by microsfot in year 2000
+		Microsoft provided .NET Frameowrk which is copy of Java culture for internet based solutions
+			dotnet only for windows
+
+
+		took to provider Opensource technology  to the world
+				2000---------2020---------------20 years
+				Learn from Xerox
+				Learn from Apple
+				Learn from Java
+				Learn from Linux
+				Learn from Google
+		
+		Sprial Model-------
+				
+			Agile Methodology
+			Continous learning
+			Continous development
+			Continous integration
+			continous -----
+	
+		
+		Dotnet 5.0 is relased in 10 Nov. 2020
+						
+			CAN DEVELOP OPEN SOURCE ONLINE APPLICATION
+						MOBILE APPLICATION
+						Cloud application
+						IOT application
+						XBOX gaming console
+
+		Agile Methology_____________
+				
+				AGILE methodology is a practice 
+				that promotes 
+				continuous iteration of development and testing  ( CD/CI/CT)
+				throughout the software development lifecycle (SDLC) of the project.
+
+		Scrum
+			
+		Scrum is an agile framework 
+			
+			for developing, delivering, and sustaining complex products,
+			 with an initial emphasis on software development, 
+			  although it has been used in 
+			   other fields including research, sales, marketing and advanced technologies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,126 @@
+
+Day 6 
+
+Lab:
+      
+	 *****Creating Code Repository for Project source code  Duration : 15 Minutes
+
+	1.Create  your GitHub account.
+	2.Create  DacProject as  public code repository.
+	3.Upload your SRS document, UseCase Diagram, ER Diagram, sql files
+	  standard Template document with Entities to DacProject code repository
+	4.Add folders for NodeJS related applications in Code repository created.------------------------------
+
+____________________________________________________________________________________________________________________________
+	*****Creating Containerized Enviornment for  EC2 instance.   Duration: 10 Minutes
+
+	5.Create Virtual server using EC2 instance in AWS console.
+	6.Access Virtual Server (Ubutnu OS) using browser SSH console.
+	7.Update Virtual server with latest updates.
+	 
+_____________________________________________________________________________________________________________________________
+
+	*Install and configure Docker to  virtual Server		Duration  1.5 hours
+	https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
+	 a.Download Docker installables from internet.
+	 b.Enable Docker Service and check status of Docker service in Linux server
+	 c.If not active start Docker service in Linux (virtual) server.
+	 d.Download Container image HelloWorld form Docker Hub to test Docker Exeuction.
+		sudo docker ps               ------ list down container instance running by docker
+		sudo docker images           -------list down container images installed on your docker service virtual server
+		sudo docker pull hello-world --------will pull hello-world existing container image and downloan in my linux virtual server
+		suco docker pull nginx -     --------pull nigx server container images from dockerhub to my machine
+
+		
+
+	*Create Docker Containers and Run Docker container instances using Docker Commands.
+		a. Defined Docker Image using Dockerfile
+		b. Create Docker container using Docker command
+		c. Start Docker container 
+		d. Access Container application from outside world.
+
+
+_______________________________________________________________________________________________________________________________________________
+
+
+Lab Instructions for pulling Readymade container images from Docker Hub
+		     Starting Containers with the help of Docker Container service
+		     Testing Applications running inside container
+
+
+
+a. Pull and Run nginx Image from Docker Hub
+
+     	#sudo docker pull nginx
+	
+	#docker run --name webserver -d -p 8080:80 nginx:latest
+	
+	Access  url http://your external id address:8080  in  your client Browser  to invoke Web Application
+
+
+
+b. Pull Angular app Image from Rahul Navale's Docker hub images galary
+
+	#sudo docker pull rahulsn/ng
+
+	docker run --name rnserver -d -p 8888:80 rahulsn/ng
+
+	Access  url http://your external id address:8888  in  your client Browser  to invoke Web Application
+
+
+
+c. Pull Containerized applications from Ravi Tambade Git Repository
+
+  #git clone https://github.com/RaviTambade/containerapps.git
+
+
+
+  c.1 Build container for NodeJS Application
+	
+	#cd containerapps/nodeapp			--> set directory to NodeJS application folder
+
+	#sudo docker build -t nodeapp .  		--> build docker container with the help of DockerFile 
+
+
+  c.2 Run container for NodeJS Application
+
+	#sudo docker run -p 8081:8081 nodeapp		-->run docker container which has NodeJS EStore Web app hosted
+
+	Access  url http://your external id address:8081  in  your client Browser  to invoke Web Application
+
+  
+   c.3 Build container for JAVA Application
+	
+	#sudo docker build -t containerjavaapp .
+	#sudo docker run containerjavaapp
+
+
+ Docker Commands to start or stop containers running inside Docker Container Service
+
+
+ if 8fd --------- is container id,
+
+
+#sudo docker stop 8fd			It will automatically find the container that matches the name and stop it.
+#sudo docker start 8df			.
+
+#sudo docker ps -a 			to see all of our existing containers (starting or stopped).
+#sudo docker rm 8fd		 	you’ll see it has been removed.
+
+
+
+
+#sudo docker images			to list all of your Docker images that have been downloaded 
+#sudo docker rmi bba			it will delete the docker image with id bba from repository 	
+#suso docker rmi ce6				it will delete the docker image with id ce6 from repository 
+
+
+
+#docker rmi $(docker images -a -q)   --remove all images from docker
+#docker system prune                 ----------remove all containers
+#docker system prune -a              -- to additionally remove any stopped containers and all unused images
+
+Explore DockerFile available in folder containerjavaapp, nodeapp , 
+
+

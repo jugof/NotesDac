@@ -1,0 +1,75 @@
+	ER Diagrams:
+			
+			Business Entity:
+
+				Employees:				employee.java------------- d/b 
+					ID
+					First Name
+					Last  Name
+					email
+					contact Number
+
+				Shoppers------				shopper.java
+					 ID,
+					 Title
+					 email
+					 contact Number
+		
+				Customer-------				 
+						ID,4345345345
+				                FirstName, LastName
+						email,
+						contact number,
+						address
+						
+				Product--------
+						ID,
+						Title
+						Description
+						Category
+						Unitprice
+						Quantity
+						Shopper
+						
+				Order-----------
+					  Customer
+					  Product
+					  Item Deatails
+					  Total Amount
+				payment:
+					ID
+					payment Date
+					Order
+
+				Shipment
+					 ID
+					 ShippingDate
+					 Order
+					 Customer
+					 status
+					 Vendor
+				
+				claim
+					UserID  : 5645645
+					LoginName: ravit
+					Password : seed
+					UserID:4345345345   shopperID, customer ID ,EmpolyeeID
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

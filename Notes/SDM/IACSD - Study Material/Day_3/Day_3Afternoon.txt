@@ -1,0 +1,157 @@
+
+Infrastructure: Computational Enviornment
+		Physical resource
+		Building, Floor,
+		Server Rooms ( Data Center)
+		processors, Ram , network
+
+		Hardware
+		Infrastructure is used to build  Platform
+		(IAAS) Infrastructure As A Service
+	
+Platform:
+		System Software (OS)
+		Operating System
+		
+		Platform is used to host services
+		PAAS(Platform As A Service)
+Service:
+		unique core functionality accessed via devices
+			using standard internet protocol
+			and provided by Service Provider 
+			and consumed by EndUser
+		 Software is provided by Google  ( service Provider)
+		 Software is hosted in ( Cloud)
+				Google Cloud Platform (GCP)  , 
+				Azure (Microsoft),
+				AWS   (Amazon)
+
+		 Software is run in Cloud
+		
+		 Software As A Service (SAAS)
+
+
+
+		Google Drive,
+		Zoom, Teams, Google meet
+
+
+
+
+Cloud Computing:
+	
+		Cloud:
+		     Network:
+			Network of Network
+			Internet
+
+		      set of servers on which applications are deployed and accessed via 
+		      								internet protocol  ( http , https)
+		
+		Types of Cloud:
+
+			1.Private Cloud:
+					The company will have thier own data center
+					 data and applications belong to same organized
+					  need more security
+					  restricted access only with organization
+
+					70 to 80 years
+					Bank of America
+					Government
+					GE
+					Max Life Insurance
+					Allianz,AXA, Aviva
+					Metlife
+						Insurance claim app
+						Policy verfication.
+						Insurance related Business applications
+					will be accessed by thier employees
+					
+
+			2.Public Cloud:
+				     AWS, Azure, GCP, iCloud Apple
+				     will be provided by Cloud providers
+					Microsoft, Amazon, Google, etc.
+				     Datacenters are own by Cloud providers
+				     Applications and Data belong orgarnization are deployed to These 
+					data centers
+					TATA Motors
+					FIAT
+					BIAL
+				
+
+			3.Hybrid Cloud:
+	
+				 PRIVATE CLOUD + PUBLIC CLOUD
+				
+				TRUST RELATIONSHIP ESTABLISHED BETWEEN PRIVATE CLOUD OF YOUR ORGRANIZATION AND PUBLIC CLOUD PROVIDED AMAZON
+
+
+
+
+
+			2.Public Cloud: ( Microsoft, Amazon, Google)
+				Cloud Provider provides Services---------
+
+					Azure, AWS, GCP
+		
+		SAAS--------Software As A Services
+					Office 365
+						word, excel , powerpoint, teams, skype, sharepoint
+					
+					Google Suite
+						Docs, photos, gmail, gmeet, gpay,etc
+
+					SalesForce:
+						
+					Zoom
+						
+				        AmazonEcommerce Shopphing Portal
+											
+				Online services are always consumed by subscribed Users
+
+		PAAS-----------
+
+
+
+
+
+		IAAS-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Cloud Characteristic: ( Google)
+				 IAAS:
+				 PAAS:
+				 SAAS:online services
+
+
+
+
+
+		

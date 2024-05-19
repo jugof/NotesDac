@@ -1,0 +1,1934 @@
+You are designing a Windows Form that enables you to add a new product to the product catalog of your company. You need to validate the controls as the user enters the data. If incorrect data is entered in the field, you should set the focus back to the control and ask the user to enter the correct data. Which of the following events will you use to validate user input?
+A. LostFocus
+B. Validating
+C. Leave
+D. Validated
+ANSWER: B
+
+You have an order entry form. When an exception occurs, you want to get information about the sequence of method calls and the line number in the method where the exception occurs. Which property of your custom exception class that derives from the ApplicationException class should be used?
+A. HelpLink
+B. InnerException
+C. Message
+D. StackTrace
+ANSWER: D
+
+What are the types of assemblies possible?
+A. Private
+B. Public/Shared
+C. Satellite assembly
+D. All
+ANSWER: D
+
+Which of the following is responsible for verifying  that a code written in c# is type safe or not?
+A. Language Compiler
+B. JIT Compiler
+C. CLR
+D. Interpreter
+ANSWER: B
+
+Boxing is computationally  more expensive process than unboxing:
+A. True
+B. False
+ANSWER:A
+
+Function pointer ensures type safety:
+A. True
+B. False
+ANSWER: B
+
+How should you arrange catch blocks?
+A. Only one catch block for each try block.
+B. Several catch blocks for a try block, arranged in order starting with Exception and ending with the most specific exception.
+C. Several catch blocks within one try block, arranged starting with the most specific exception and ending with Exception.
+D. The catch blocks should be used only when a finally block is not used.
+ANSWER : C
+
+You have designed a logon form with two TextBox controls named txtUserName and txtpassword. You want to ensure that the user can enter only lowercase characters in the controls. Which of the following solutions will fulfill this requirement using the simplest method?
+A. Program the KeyPress event of the TextBox controls to convert uppercase letters to lowercase letters.
+B. Create a single event handler that is attached to the KeyPress event of the form. Program this event handler to convert the uppercase letters to lowercase ones.
+C. Set the CharacterCasing property of the Textbox controls to Lower.
+D. Use the CharacterCasing method of the controls to convert the letters to lowercase letters.
+ANSWER : C
+
+You are creating an order-tracking application using a Visual C# .NET Windows application. When you are unable to track a particular order number entered by the user, you need to raise an exception. Which of the following options will help you to raise an exception?
+A. try block
+B. catch block
+C. finally block
+D. throw statement
+ANSWER : D
+
+Which of the following events will fire when the Insert key is pressed?
+A. KeyDown
+B. KeyPress
+C. KeyUp
+D. KeyDown,KeyPress
+ANSWER : D
+
+What is the Maximum and Minimum Size of the Int64?
+A. 9,223,372,036,854,775,808 / 9,223,372,036,854,775,808
+B. 9,223,372,036,854,771,024 / 9,223,372,036,854,771,024
+C. 6,400,000,000,000,000,000 / 6,400,000,000,000,000,000
+ANSWER: A
+
+What is Minimum and Maximum Size of Int32 ?
+A. -3,200,102,400 / 3,200,102,448
+B. -2,147,483,648 / 2,147,483,648 
+C. -3,200,000,000 / 3,200,000,000
+ANSWER: B
+
+What is minimum and Maximum Size of Int16 ?
+A. -32,256 / 32,256
+B. -16,768 / 16,768
+C. -32,768 / 32,768 
+D. -16,256 / 16,256
+ANSWER: C
+
+5. What is the use of Partial Class ?
+A. Reduction in file contention in shared development environments. The forms designer and the developer are not both trying to change the same file
+B. Isolation of low-level details. You don't have to worry about the details of how the individual controls are instantiated and initialized
+C. Protection for generated code through changes. You are less likely to change the generated code, and any code that you add will not be in the designer file and is protected.
+D. All the above 
+ANSWER: D
+
+How many constructors does a class have?
+A. One
+B. Two
+C. Three
+D. Many  
+ANSWER: D
+
+Is XML case-sensitive?
+A. Yes 
+B. No
+C. None of the above
+ANSWER: A
+
+Can you change the value of a variable while debugging a C# application?
+A. Yes 
+B. No
+C. None of the above
+ANSWER: A
+
+Can multiple catch blocks be executed?
+A. Yes
+B. No
+C. None of the above
+ANSWER: B
+
+Does Abstract classes have constructor?
+A. No
+B. Yes 
+C. Not possible
+ANSWER: A
+
+What is the base class for the system element hierarchy ?
+A. CIM_LogicalElement
+B. CIM_ManagedSystemElement 
+C. Win32_Process
+D. Win32_NetworkAdapter
+ANSWER: B
+
+What are valid signatures for the Main function?
+A. public static void Main()
+B. public static int Main()
+C. public static void Main( string[] args )
+D. Above ALL  
+ANSWER: D
+
+What is The Full FOrm of 'RCW' ..?
+A. Run Callable Wrappers
+B. Revised Code of Washington
+C. Run time Callable Wrappers 
+D. Run time Callable Writer
+ANSWER: C
+
+Which function is used to separate time from datetime ?
+A. Split
+B. Remove
+C. CompareTo
+D. None
+ANSWER: A
+
+What is an Object?
+A. A combination of message and data 
+B. A combination of namespace
+C. A combination of task to be performed
+D. A combination of Array
+ANSWER: A
+
+What is an Encapsulation?
+A. An action or occurrence such as click
+B. A package of one or more components together 
+C. A set of statement that performs specific task
+D. A reference type variable
+ANSWER: B
+
+The subscript number of an array starts from?
+A. 0
+B. 1
+C. -1
+D. 2
+ANSWER: A
+
+Which Escape Character is used for New Line in Console?
+A. /n
+B. \n 
+C. //n
+D. \n\r
+ANSWER: B
+
+Which is true? 1. There can be only one static constructor in the class. 2. The static constructor should be without parameters. 3. It can only access the static members of the class. 4. There should be no access modifier in static constructor definition.
+A. 1 & 2
+B. 2 & 3 & 4
+C. 1 & 3 & 4
+D. All the above
+ANSWER: D
+
+How can you sort the elements of the array in descending order?
+A. System.Array.Clone()
+B. By calling Sort() and then Reverse() methods.
+C. By Calling Reverse()
+D. By calling Sort()
+ANSWER: B
+
+Whats the difference between a Thread and a Process?
+A. A process can have multiple threads in addition to the primary thread 
+B. A process is code that is to be serially executed within a thread
+C. When a process begins to execute, it continues until it is killed or until it is interrupted by a process with higher priority
+D. No Difference, they are so same thing
+ANSWER: A
+
+Which of the following is Reference Type?
+A. string 
+B. bool
+C. int
+D. ushort
+ANSWER: A
+
+Which of the given method does not belong to System.Object?
+A. Equals
+B. Clone
+C. GetType
+D. ToString
+ANSWER: B
+
+Which property of the Exception class should you use to find a line of code that caused an exception to be thrown?
+A. StackTrace
+B. Data
+C. Message
+D. Source
+ANSWER: A
+
+Which type should you choose to identify a type that meets the following criteria: Always a number. Not greater than 65,535?
+A. System.String
+B. System.UInt16
+C. System.IntPtr
+D. Int
+ANSWER: B
+
+How do you prevent a class from being inherited?
+A. Mark it as abstract
+B. Mark it as static
+C. Mark it as sealed 
+D. Mark it as partial
+ANSWER: C
+
+Which copy Array.Clone() method perform?
+A. Shallow Copy
+B. Deep Copy
+C. Hard Copy
+D. None
+ANSWER: A
+
+What is the difference between Convert.Tostring() and ToString()?
+A. both accept null values
+B. convert.to string accept null values & tostring do not accept null values 
+C. both do not accept null values
+D. convert to string do not accept null values & tostring accept null values
+ANSWER: D
+
+The main reason to use operator overloading is...
+A. To allow arithmetic operations to run more efficiently
+B. To reduce the size of the executable program
+C. To allow client code to be more concise and readable than it might be with regular methods 
+D. None of above
+ANSWER: C
+
+The concept of parameterized datatypes like List is called in C# ...
+A. Templates
+B. Generics 
+C. Delegates
+D. Metatypes
+ANSWER: B
+
+There are five access levels in C#, private, internal, protected, protected internal, and public.
+A. True 
+B. False
+C. Not applicable
+ANSWER: A
+
+Namespaces are used to ____ ?
+A. Avoid name clashes between data types 
+B. Create a unique name for an assembly
+C. Separate assemblies
+D. Not applicable
+ANSWER: A
+
+True or false: it is possible to use the const keyword on an reference parameter to prevent the method from modifying the parameter value.
+A. True
+B. False 
+C. Not applicable
+ANSWER: B
+
+ICloneable interface is used to create new instance of the class with the same value as an existing instance?
+A. Yes 
+B. No
+C. Not applicable
+ANSWER: A
+
+Which members can be accessed through an object reference?
+A. Only the object class members
+B. All members
+C. No members
+D. None of the Above
+ANSWER: A
+
+Which of these statements correctly declares a two-dimensional array in C#?
+A. int[,] myArray;
+B. int[][] myArray;
+C. int[2] myArray;
+D. System.Array[2] myArray
+ANSWER: A
+
+If a method is marked as protected internal who can access it?
+A. Classes that are both in the same assembly and derived from the declaring class.
+B. Only methods that are in the same class as the method in question.
+C. Internal methods can be only be called using reflection.
+D. Classes within the same assembly, and classes derived from the declaring class.
+ANSWER : D
+
+What is boxing?
+A. Encapsulating an object in a value type.
+B. Encapsulating a copy of an object in a value type.
+C. Encapsulating a value type in an object.
+D. Encapsulating a copy of a value type in an object.
+ANSWER : D
+
+What is a delegate?
+A. A strongly typed function pointer.
+B. A light weight thread or process that can call a single method.
+C. A reference to an object in a different process.
+D. An inter-process message channel.
+ANSWER : A
+
+A class that can not be inherited is what type of class?
+A. Sealed
+B. Static
+C. Gather
+D. Const
+ANSWER: A
+
+You want to log events generated by exception-handling code within your application, which will run on standalone systems running Windows 98 and Windows 2000. Which of the four methods of logging is the best single solution able to fulfill this requirement?
+A. Windows event log
+B. Custom log files
+C. Databases such as SQL Server 2000
+D. Email notifications
+ANSWER: B
+
+The statement that is used to replace multiple if statements is called
+A. The switch & case statement
+B. ?: (ternary operator)
+C. The nestedif statement
+D. The #endif statement
+ANSWER: A
+
+Which of the following is not a C# keyword?
+A. Implements
+B. If
+C. Private
+D. Delegate
+ANSWER: A
+
+what is the default access specifier for a Top-level Class, which are not nested into other Classes
+A. public
+B. private
+C. protected
+D. internal
+ANSWER: D
+
+If a method is marked as protected internal who can access it?
+A. Access is limited to the current assembly
+B. Access is limited to the containing class or types derived from the containing class.
+C. Access is limited to the containing type
+D. Access is limited to the current assembly or types derived from the containing class.
+ANSWER: D
+
+An array is a list of data items that _________________
+A. all have the same type
+B. all have different names
+C. all are integers
+D. all are originally set to ‘null’ (‘\0)
+ANSWER: A
+
+Which operator is used to allocate memory for an instance of a class, as well as to pass arguments to a constructor of that class?
+A. new
+B. delete
+C. alloc
+D. malloc
+ANSWER: A
+
+Can an Abstract class be declared as sealed?
+A. True
+B. False
+ANSWER: A
+
+An  instance of a derived class may be passed as an argument to a method that expects an instance of the base class.
+A. True
+B. False
+ANSWER: A
+
+Which of the following is a value type, and not a reference type?
+A. array
+B. delegate
+C. enum
+D. class
+ANSWER: C
+
+What does the parameter Initial Catalog define inside Connection String?
+A. Password
+B. User name
+C. Database
+D. Security
+ANSWER: C
+
+Are private class-level variables inherited?
+A. No, because class is private.
+B. Yes, but they are not accessible.
+C. Yes, and you can access the variables.
+D. Indeterminate.
+ANSWER: B.
+
+What is the difference between interface and abstract class?
+A. An abstract class may only contain incomplete methods
+B. An interface may contain complete or incomplete methods
+C. A class may inherit several interfaces, A class may inherit only one abstract class
+D. A class implementing an abstract class has to implement all the methods of the abstract class, but the same is not required in the case of an interface
+ANSWER: B
+
+How does assembly versioning in .NET prevent DLL Hell?
+A. The runtime checks to see that only one version of an assembly is on the machine at any one time.
+B. .NET allows assemblies to specify the name AND the version of any assemblies they need to run.
+C. The compiler offers compile time checking for backward compatibility.
+D. It is not possible.
+ANSWER : B
+
+Which of the following operations can you NOT perform on an ADO.NET DataSet?
+A. A DataSet can be synchronised with the database.
+B. A DataSet can be synchronised with a RecordSet.
+C. A DataSet can be converted to XML.
+D. You can infer the schema from a DataSet.
+ANSWER: B
+
+You have a TextBox control and a Help button that the user can press to get help on allowable values. You validate the data entered by the user in the TextBox control. If the user enters an invalid value, you set the focus back in the control using the Cancel property of the CancelEventArgs. A user reports that once he enters invalid data in the text box, he cannot click the Help button. What should you do to correct the problem?
+A. Set the CausesValidation property of the text box to false.
+B. Set the CausesValidation property of the text box to true.
+C. Set the CausesValidation property of the Help button to false.
+D. Set the CausesValidation property of the Help button to true.
+ANSWER : C
+
+What is the difference between an interface and an abstract class?
+A. In a interface , all methods are abstract without implementation where as in an abstract class some methods we can define concrete.
+B. In interface, no accessibility modifiers are allowed. An abstract class may have accessibility modifiers.
+C. Both A & B
+D. Only A
+ANSWER : C
+
+What’s the implicit name of the parameter that gets passed into the set method/property of a class?
+A.  Value
+B.  Data
+C.  Name
+D.  None of these
+ANSWER : A
+
+What does the keyword “virtual” declare for a method or property?
+A.  The method or property can be overridden.
+B.  The method or property cannot be overridden.
+C.  The method or property must be overridden.
+D.  None of these
+ANSWER : A
+
+You can declare an override method to be static if the original method is not static.
+A.  True
+B.  False
+ANSWER : B
+
+What are the different ways a method can be overloaded?
+A. Different parameter data types, different number of parameters, different return types.
+B. Different parameter data types, different number of parameters, different order of parameters.
+C. Different parameter data types, different name of parameters, different order of parameters.
+D. None of these.
+ANSWER : B
+
+If a base class has a number of overloaded constructors, and an inheriting class has a number of overloaded constructors then  you can enforce a call from an inherited constructor to a specific base constructor.
+A.  True
+B.  False
+ANSWER : A
+
+When do you absolutely have to declare a class as abstract?
+A. When the class itself is inherited from an abstract class, but not all base abstract methods have been overridden.
+B. When at least one of the methods in the class is abstract.
+C. Both A & B
+D. Only B
+ANSWER : C
+
+C# supports multiple-inheritance.
+A.  True
+B.  False
+ANSWER : B
+
+Private class-level variables can be inherited.
+A.  True
+B.  False
+ANSWER : A
+
+What does the term immutable mean?
+A.  The data value may not be changed.
+B.  The data value must not be changed.
+C.  The variable value may be changed, but the original immutable data value was discarded and a new data value was created in memory.
+D.  Both A & C.
+ANSWER : D
+
+Whict is true for C#?
+A. C# supports interfaces.
+B. C# also provides support for structs.
+C. C# provides component-oriented features
+D. All
+E. None
+Answer:D
+
+Does C# support multiple-inheritance?
+A.No
+B.Yes
+Answer:A
+
+Dot net has ________ access specifiers
+A. 4
+B. 5
+C. 6
+D. 3
+ANSWER: B
+
+Default access specifier for class is:
+A. public
+B. internal
+C. both
+D. none
+ANSWER: B
+
+Accessor is:
+A. a method which retrieves a private value in an object.
+B. a method which updates a private value in an object.
+C. a method which updates a public value in an object
+D. None
+ANSWER: A
+
+AbstractFactory means:
+A. declares an interface for operations that create abstract products
+B. implements the operations to create concrete product objects
+C. declares an interface for a type of product object
+D. defines a product object to be created by the corresponding concrete factory
+ANSWER: A
+
+You need to identify a type that meets the following criteriA. Is always a number. Is not greater than 65,535. Which type should you choose?
+A. System.UInt16
+B. int
+C. System.String
+D. System.IntPtr
+Answer: A
+
+You are working on a debug build of an application.You need to find the line of code that caused an exception to be thrown.Which property of the Exception class should you use to achieve this goal?
+A. Data
+B. Message
+C. StackTrace
+D. Source
+Answer: C
+
+You are developing a custom-collection class. You need to create a method in your class. You need to ensure that the method you create in your class returns a type that is compatible with the Foreach statement.Which criterion should the method meet?
+A. The method must return a type of either IEnumerator or IEnumerable.
+B. The method must return a type of IComparable.
+C. The method must explicitly contain a collection.
+D. The method must be the only iterator in the class.
+Answer: A
+
+You need to select a class that is optimized for key-based item retrieval from both small and large collections. Which class should you choose?
+A. OrderedDictionary class
+B. HybridDictionary class
+C. ListDictionary class
+D. Hashtable class
+Answer: B
+
+You are creating a class that uses unmanaged resources. This class maintains references to managed resources on other objects.You need to ensure that users of this class can explicitly release resources when the class instance ceases to be needed. Which three actions should you perform? (Each correct Answer presents part of the solution. Choose
+three.)
+A. Define the class such that it inherits from the WeakReference class.
+B. Define the class such that it implements the IDisposable interface.
+C. Create a class destructor that calls methods on other objects to release the managed resources.
+D. Create a class destructor that releases the unmanaged resources.
+E. Create a Dispose method that calls System.GC.Collect to force garbage collection.
+F. Create a Dispose method that releases unmanaged resources and calls methods on other objects torelease the managed resources.
+Answer: (B AND D AND F)
+
+You use Reflection to obtain information about a method named MyMethod. You need to ascertain whether MyMethod is accessible to a derived class. What should you do?
+A. Call the IsAssembly property of the MethodInfo class.
+B. Call the IsVirtual property of the MethodInfo class.
+C. Call the IsStatic property of the MethodInfo class.
+D. Call the IsFamily property of the MethodInfo class.
+Answer: D
+
+You are creating a class that uses unmanaged resources. This class maintains references to managed resources on other objects. You need to ensure that users of this class can explicitly release resources when the class instance ceases to be needed. Which three actions should you perform? (Each correct answer presents part of the solution. Choose three.)
+A. Define the class such that it inherits from the WeakReference class.
+B. Define the class such that it implements the IDisposable interface.
+C. Create a Dispose method that releases unmanaged resources and calls methods on other objects to release the managed resources.
+D. Create a class destructor that releases the unmanaged resources.
+Answer: B, C, D
+
+You are working on a debug build of an application. You need to find the line of code that caused an exception to be thrown. Which property of the Exception class should you use to achieve this goal?
+A. Data
+B. Message
+C. StackTrace
+D. Source
+Answer: C
+
+You are developing a custom-collection class. You need to create a method in your class. You need to ensure that the method you create in your class returns a type that is compatible with the Foreach statement. Which criterion should the method meet?
+A. The method must return a type of either IEnumerator or IEnumerable.
+B. The method must return a type of IComparable.
+C. The method must explicitly contain a collection.
+D. The method must be the only iterator in the class.
+Answer: A
+
+Assume that a class, Class1, has both instance and static constructors. Given the code below, how many times will the static and instance constructors fire?Class1 c1 = new Class1();Class1 c2 = new Class1();Class1 c3 = new Class1();
+A. STATIC: 1 , INSTANCE1 
+B. STATIC: 1 , INSTANCE3[ans]
+C. STATIC: 3 , INSTANCE3
+D. NONE
+
+What would be the value of the variable y at the end of this code segment?
+int x = 3;
+object o = x;
+x = 4;
+int y = (int)o;
+A. 3 
+B. 4
+C. 7
+D. 0
+ANSWER: A
+
+Which design pattern is shown below?
+public class A {    private A instance; private A() {}
+ public static A Instance {get {
+if ( A == null )
+                A = new A();
+            return instance;
+  }}}
+A. Factory
+B. Abstract Factory
+C. Singleton
+D. Builder
+ANSWER: C
+
+Assume that a class, Class1, has both instance and static constructors. Given the code below, how many times will the static and instance constructors fire?
+Class1 c1 = new Class1();
+Class1 c2 = new Class1();
+Class1 c3 = new Class1();
+A. STATIC: 1 , INSTANCE1 
+B. STATIC: 1 , INSTANCE3
+C. STATIC: 3 , INSTANCE3
+D. NONE
+ANSWER: B
+
+Which option will result from compiling the following code, assuming that all other code for your form works properly?
+try
+{
+  //Write code to allocate some resources
+}
+finally
+{
+  //Write code to Dispose all allocated resources
+}
+A. The code will generate an error because it lacks a catch block.
+B. The code will generate an error because it lacks a throw statement.
+C. The code will generate an error because the finally block is placed immediately after the try block.
+D. The code will compile without an error.
+ANSWER: D
+
+What will be the output of the following code?
+{
+ int num = 100;
+ int den = 0;
+ try
+ {
+  MessageBox.Show("Message1");
+  int res = num/den;
+  MessageBox.Show("Message2");
+ }
+ catch(ArithmeticException ae)
+ {
+  MessageBox.Show("Message3");
+ }
+ MessageBox.Show("Message4");
+}
+A. Message1 , Message2 , Message3, Message4
+B. Message1 , Message2 , Message3
+C. Message1 , Message3, Message4
+D. Compile time error
+ANSWER : C
+
+What will be the output of the following code?
+class Test
+{
+    static void Main(string[] args)
+    {
+        int i = 123;
+        object o = i; 
+        i = 456; 
+        System.Console.WriteLine("The value = {0}", i);
+        System.Console.WriteLine("The value = {0}", o);
+    }
+}
+A. The value = 456, The value = 123
+B. The value = 456, The value = 456
+C. Compile Time Error
+D. Run Time Error
+ANSWER: A
+
+If a= 2 what will be output of following lines of code?
+switch (a)
+{
+ case 1: System.Console.WriteLine(1);
+  break;
+ case 2: System.Console.WriteLine(2);
+                   
+ case 3: System.Console.WriteLine(3);
+  break;
+
+}
+A. Only 2 is printed
+B. 2 is printed followed by 3
+C. Compile time error
+D. None of the above
+ANSWER: C
+
+The following code will generate a compiler error.
+string GetAgePhrase(int age)
+{
+ if (age > 60) return “Senior”;
+ if (age > 40) return “Middle-aged”;
+ if (age > 20) return “Adult”;
+ if (age > 12) return “Teen-aged”;
+ if (age > 4) return “Toddler”;
+}
+Which of the following statements, inserted as the last line of the function, would solve the problem?
+A. continue;
+B. break;
+C. return “Infant”;
+D. return;
+ANSWER: C
+
+What happens to the input variable index in the following call:
+int i = 20;
+foo( ref i );
+public void foo ( ref int i )
+{
+ int j = 3;
+ i = j;
+ i += 10;
+}
+A. i is not changed
+B. i is 20
+C. i is 23
+D. i is 13
+ANSWER: D
+
+using System;
+class R4R
+{
+static void Main(string[] args)
+{
+int x = 10;
+int y;
+y = x++;
+int xy = x > y ? x : y;
+Console.WriteLine("output: {0}, {1},{2}", x,y,xy);
+}
+}
+A. output: 10, 10,10
+B. output: 11, 10,10
+C. output: 11,10,11
+D. none
+Answer:C
+
+using System;
+class R4R
+{
+static void Main(string[] args)
+{
+int x = 10;
+int y;
+y = x++;
+Console.WriteLine("After postfix: {0}, {1}", x, y);
+x = 20;
+y = ++x;
+Console.WriteLine("After prefix: {0}, {1}", x, y);
+}
+}
+A. After postfix: 11, 10
+B. After prefix: 21, 21
+C. both
+D. none
+Answer:C
+
+Choose correct one
+1 int x;
+2 x = 23;
+3 int y = x;
+4 int string=10;
+
+A. 1,2,3,4
+B. 1,2,3
+C. 1,3
+D. None
+Answer:B
+
+What is output of following :
+class R4R
+{
+static void Main(string[] args)
+{
+int string=0;
+System.Console.WriteLine("Outpt: {0}",string++);
+}
+}
+A. Output:0
+B. Output:1
+C. 1,2
+D. error
+Answer:D
+
+What is output of following :
+class R4R
+{
+ enum Day
+{
+Sunday= 01,
+Monday= 02,
+Tuesday= 03,
+Wednesday=04,
+Thursday= 05,
+Friday= 06,
+Saturday=07
+}
+static void Main(string[] args)
+{
+System.Console.WriteLine("First of Weak Day: {0}",
+(int) Day.Sunday);
+System.Console.WriteLine("Last of Weak Day: {0}",
+(int) Day.Saturday);
+}
+}
+A. First of Weak Day:01
+B. Last of Weak Day:07
+C. 1,2
+D. error
+Answer:C
+
+class R4R
+{
+static void Main(string[] args)
+{
+short s;
+System.Console.WriteLine("Initialized: {0}",s);
+s = 5;
+System.Console.WriteLine("After assignment: {0}",s);
+}
+}
+A. error
+B. 2 Initialized:5
+C. After assignment:7
+D. both 2,3
+Answer:A
+
+class R4R
+{
+static void Main(string[] args)
+{
+short s = 7;
+System.Console.WriteLine("Initialized: {0}",s);
+s = 5;
+System.Console.WriteLine("After assignment: {0}",s);
+}
+}
+A. error
+B. Initialized:5
+C. After assignment:7
+D. both 2,3
+Answer:D
+
+class R4R
+{
+static void Main(string[] args)
+{
+short x;
+int y = 500;
+x = y;
+System.Console.WriteLine("Output:{0}", x);
+}
+}
+A. error
+B. Output:500
+C. Output:{500}
+D. None
+Answer:A
+
+
+What will output of following?
+using System.Console;
+class R4R
+{
+static void Main(string[] args)
+{
+WriteLine("R4R");
+}
+}
+A. error
+B. R4R
+C. No any output
+D. None
+Answer:A
+
+What will output of following?
+class R4R
+{
+static void Main(string[] args)
+{
+/*
+System.Console.WriteLine("R4R");
+*/
+}
+}
+A. No output.
+B. Compile time error.
+C. Runtime erro
+D. None of above.
+Answer:A
+
+From the following code segment,please choose the appropriate output
+Try
+{
+Console.Write("Hello ");}
+Catch
+{
+Console.Write("Error ");}
+Finally
+{
+Console.Write("World ");}
+A. Hello Error World
+B. Hello World
+C. Error
+D. Error World
+ANSWER: B
+
+
+Which code snippet is absolutely correct?
+A.
+class Test
+{
+static void Main()
+{
+int i = 1;
+object o = i;
+int j = (int) o;
+}
+}
+B.
+class Test
+{
+static void Main()
+{
+int i = 1;
+object o = i;
+int j = (int) o;
+}
+}
+C. Both results in runtime error
+D. Both results in compile time error.
+ANSWER: B
+
+
+Which of the following code snippet is acuratly optimised?
+A.
+int result = 0;
+for(int i=0;i<10;i++){
+int count=0;
+count=10;
+result=count + i;
+---some code---}
+Console.Write(result.ToString());
+B.
+int result = 0;
+int count=10;
+int i;
+for(i=0;i<10;i++){---some code---}
+result=count + i;
+Console.Write(result.ToString());
+C.
+int result = 0;
+int count=10;
+int i;
+for(i=0;i<10;i++){---some code---
+result=count + i;}
+Console.Write(result.ToString());
+D.
+int result = 0;
+int count=0;
+int i;
+for(i=0;i<10;i++)
+{---some code---
+count =10;}
+result=count + i;
+Console.Write(result.ToString());
+ANSWER: B
+
+Output of the following snippet
+class Test
+{
+static void Main()
+{
+int i = 1;
+object o = i;
+int j = (int) o;
+string k = j.ToString() + "x";
+object ob = k;
+int m = (int) ob;
+Consolw.Write(m.ToString());
+}
+}
+A. 1x
+B. 1
+C. Run time Error
+D. Compile time Error
+ANSWER: C
+
+Which is true ?
+1. There can be only one static constructor in the class.
+2. The static constructor should be without parameters.
+3. It can only access the static members of the class.
+4. There should be no access modifier in static constructor definition.
+A. 1 & 2
+B. 2 & 3 & 4
+C. 1 & 3 & 4
+D. All the above 
+ANSWER : D
+
+Which type should you choose to identify a type that meets the following criteria:
+Is always a number?  Is not greater than 65,535?
+A. System.String
+B. System.UInt16 
+C. System.IntPtr
+D. Int
+ANSWER : B
+
+How you can change the page title by changing the  using C#?
+A. void buttonSet_Click(Object sender, EventArgs earg)
+{
+Header.Title :Msg.Text;
+}
+B. void buttonSet_Click(Object sender, EventArgs earg)
+{
+ Msg.Text= Header.Title;
+}
+
+C. void buttonSet_Click(Object sender, EventArgs earg)
+{
+Msg.Text: Header.Title;
+}
+
+D. None
+Answer:A
+
+
+How many statements are into following code?
+int x; x = 23;int y = x;
+A. 1
+B. 2
+C. 3
+D. 4
+D. 5
+Answer:C
+
+Which of the following is true for string r4r = "R4R";
+A.r4r is an object which store string R4R.
+B.string is keyword in C#.
+C.This syntax is wrong string is not any keyword in c#.
+E.string used to store set of characters into any string type object.
+Answer:A,B,D
+
+Which of following is correct:
+A. enum Day
+{
+Sunday= 01,
+Monday= 02,
+Tuesday= 03,
+Wednesday=04,
+Thursday= 05,
+Friday= 06,
+Saturday=07
+}
+
+B. Day enum
+{
+Sunday= 01,
+Monday= 02,
+Tuesday= 03,
+Wednesday=04,
+Thursday= 05,
+Friday= 06,
+Saturday=07
+}
+
+C. Day {
+Sunday= 01,
+Monday= 02,
+Tuesday= 03,
+Wednesday=04,
+Thursday= 05,
+Friday= 06,
+Saturday=07
+}
+
+D. enumeration Day
+{
+Sunday= 01,
+Monday= 02,
+Tuesday= 03,
+Wednesday=04,
+Thursday= 05,
+Friday= 06,
+Saturday=07
+}
+
+Answer:A
+
+Which of the follwing is true?
+A. byte-->> 1(siz)-->>Byte(as int.net)-->> Unsigned (values 0-255).
+B. char-->> 2-->> Char -->>Unicode-->> characters.
+C. bool -->>1 -->>Boolean -->>true or false.
+D. sbyte-->> 1 SByte-->> Signed -->>(values -128 to 127).
+E. short-->>  2-->>  Int16-->>  Signed -->> short-->> values -32,768 to 32,767
+Answer:A,B,C,D,E
+
+Which Of follwing is currect syntax?
+A.
+class R4R
+{
+static void Main(string[] args)
+{
+System.Console.WriteLine("R4R");
+}
+}
+B.
+class R4R
+{
+static void Main(string[] args)
+{
+System.out.WriteLine("R4R");
+}
+}
+C.
+class R4R
+{
+static void Main(string[] args)
+{
+System.print.WriteLine("R4R");
+}
+}
+D.class R4R
+{
+static void Main(string[] args)
+{
+System.Console.out("R4R");
+}
+}
+Answer:A
+
+You are writing a custom dictionary. The customdictionary class is named MyDictionary. You need to ensure that the dictionary is type safe. Which code segment should you use?
+A. class MyDictionary : Dictionary<string, string>
+B. class MyDictionary : HashTable
+C. class MyDictionary : IDictionary
+D. class MyDictionary { ... }
+Dictionary<string, string> t = new Dictionary<string, string>();
+MyDictionary dictionary = (MyDictionary)t;
+Answer: A
+
+You are creating a class named Age. You need to ensure that the Age class is written such that collections of Age objects can be sorted. Which code segment should you use?
+A. public class Age { public int Value;
+public object CompareTo(object obj)
+{ if (obj is Age)
+{ Age _age = (Age) obj;
+return Value.CompareTo(obj); }
+throw new ArgumentException("object not an Age"); } }
+B. public class Age {
+public int Value;
+public object CompareTo(int iValue) {
+try {
+return Value.CompareTo(iValue); }
+catch {
+throw new ArgumentException ("object not an Age"); } } }
+C. public class Age : IComparable {
+public int Value;
+public int CompareTo(object obj)
+{ if (obj is Age) {
+Age _age = (Age) obj;
+return Value.CompareTo(_age.Value); }
+throw new ArgumentException("object not an Age"); } }
+D. public class Age : IComparable {
+public int Value;
+public int CompareTo(object obj) {
+try {
+return Value.CompareTo(((Age) obj).Value); }
+catch {
+return 1;
+} } }
+Answer: C
+
+You are creating a class to compare a speciallyformatted string. The default collation comparisons do not apply. You need to implement the IComparable<string> interface. Which code segment should you select?
+A. public class Person : IComparable<string>{ public int CompareTo(string other){ ... }}
+B. public class Person : IComparable<string>{ public int CompareTo(object other){ ... }}
+C. public class Person : IComparable<string>{ public bool CompareTo(string other){ ... }}
+D. public class Person : IComparable<string>{ public bool CompareTo(object other){ ... }}
+Answer: A
+
+You are developing a customcollection class. You need to create a method in your class. You need to ensure that the method you create in your class returns a type that is compatible with the Foreach statement. Which criterion should the method meet?
+A. The method must return a type of either IEnumerator or IEnumerable.
+B. The method must return a type of IComparable.
+C. The method must explicitly contain a collection.
+D. The method must be the only iterator in the class.
+Answer: A
+
+You are developing an application to assist the user in conducting electronic surveys. The surveyconsists of 25 true or false questions. You need to perform the following tasks: Initialize each answer to true.Minimize the amount of memory used by each survey. Which storage option should you choose?
+A. BitVector32 answers = new BitVector32(1);
+B. BitVector32 answers = new BitVector32(1);
+C. BitArray answers = new BitArray (1);
+D. BitArray answers = new BitArray(1);
+Answer: B
+
+You are developing a custom event handler to automatically print all open documents. The event handler helps specify the number of copies to be printed. You need to develop a custom event arguments class to pass as a parameter to the event handler. Which code segment should you use?
+A. public class PrintingArgs {
+private int copies;
+public PrintingArgs(int numberOfCopies) {
+this.copies = numberOfCopies; }
+public int Copies {
+get { return this.copies; } }}
+B. public class PrintingArgs : EventArgs {
+private int copies;
+public PrintingArgs(int numberOfCopies) {
+this.copies = numberOfCopies; }
+public int Copies {
+get { return this.copies; } }}
+C. public class PrintingArgs {
+private EventArgs eventArgs;
+public PrintingArgs(EventArgs ea) {
+this.eventArgs = ea; }
+public EventArgs Args {get { return eventArgs; }}}
+D. public class PrintingArgs : EventArgs { private int copies;}
+Answer: B
+
+You write a class named Employee that includes the following code segment.
+public class Employee {string employeeId, employeeName, jobTitleName;
+public string GetName() { return employeeName; }
+public string GetTitle() { return jobTitleName; }
+You need to expose this class to COM in a type library. The COM interface must also facilitate
+forwardcompatibility across new versions of the Employee class. You need to choose a method for
+generating the COM interface. What should you do?
+A. Add the following attribute to the class definition.
+[ClassInterface(ClassInterfaceType.None)]public class Employee {}
+B. Add the following attribute to the class definition.
+[ClassInterface(ClassInterfaceType.AutoDual)]public class Employee {}
+C. Add the following attribute to the class definition.
+[ComVisible(true)]public class Employee {}
+D. Define an interface for the class and add the following attribute to the class definition.
+[ClassInterface(ClassInterfaceType.None)]public class Employee : IEmployee {}
+Answer: D
+
+You need to call an unmanaged function from your managed code by using platform invoke services.What should you do?
+A. Create a class to hold DLL functions and then create prototype methods by using managed code.
+B. Register your assembly by using COM and then reference your managed code from COM.
+C. Export a type library for your managed code.
+D. Import a type library as an assembly and then create instances of COM object.
+Answer: A
+
+You write the following code to call a function from the Win32 Application Programming Interface (API)by using platform invoke.
+ int rc=MessageBox(hWnd,text.caption.type);
+You need to define a method prototype. Which code segment should you use?
+A. [DllImport("user32")]public static extern int MessageBox(int hWnd, String text, String caption, uint type);
+B. [DllImport("user32")]
+public static extern int MessageBoxA(int hWnd,String text, String caption, uint type);
+C. [DllImport("user32")]
+public static extern int Win32API_User32_MessageBox(int hWnd, String text, String caption, uint type);
+D. [DllImport(@"C. \WINDOWS\system32\user32.dll")]
+public static extern int MessageBox(int hWnd, String text, String caption, uint type);
+Answer: A
+
+You create an application to send a message by email. An SMTP server is available on the local subnet. The SMTP server is named smtp.contoso.com. To test the application, you use a source address,me@contoso.com, and a target address, you@contoso.com. You need to transmit the email message. Which code segment should you use?
+A. MailAddress addrFrom = new MailAddress("me@contoso.com", "Me");
+MailAddress addrTo = new MailAddress("you@contoso.com", "You");
+MailMessage message = new MailMessage(addrFrom, addrTo);
+message.Subject = "Greetings!";message.Body = "Test";message.Dispose();
+B. string strSmtpClient = "smtp.contoso.com";
+string strFrom = "me@contoso.com";
+string strTo = "you@contoso.com";
+string strSubject = "Greetings!";
+string strBody = "Test";
+MailMessage msg = new MailMessage(strFrom, strTo, strSubject, strSmtpClient);
+C. MailAddress addrFrom = new MailAddress("me@contoso.com");
+MailAddress addrTo = new MailAddress("you@contoso.com");
+MailMessage message = new MailMessage(addrFrom, addrTo);
+message.Subject = "Greetings!";
+message.Body = "Test";
+SmtpClient client = new SmtpClient("smtp.contoso.com");
+client.Send(message);
+D. MailAddress addrFrom = new MailAddress("me@contoso.com", "Me");
+MailAddress addrTo = new MailAddress("you@contoso.com", "You");
+MailMessage message = new MailMessage(addrFrom, addrTo);
+message.Subject = "Greetings!";
+message.Body = "Test";
+SocketInformation info = new SocketInformation();
+Socket client = new Socket(info);
+System.Text.ASCIIEncoding enc = new System.Text.ASCIIEncoding();
+byte[] msgBytes = enc.GetBytes(message.ToString());
+client.Send(msgBytes);
+Answer: C
+
+You need to create a dynamic assembly named MyAssembly. You also need to save the assembly to disk. Which code segment should you use?
+A. AssemblyName myAssemblyName = new AssemblyName();
+myAssemblyName.Name = "MyAssembly";
+AssemblyBuilder myAssemblyBuilder =AppDomain.CurrentDomain.DefineDynamicAssembly
+(myAssemblyName, AssemblyBuilderAccess.Run);
+myAssemblyBuilder.Save("MyAssembly.dll");
+B. AssemblyName myAssemblyName = new AssemblyName();myAssemblyName.Name =
+"MyAssembly";
+AssemblyBuilder myAssemblyBuilder =AppDomain.CurrentDomain.DefineDynamicAssembly
+(myAssemblyName, AssemblyBuilderAccess.Save);
+myAssemblyBuilder.Save("MyAssembly.dll");
+C. AssemblyName myAssemblyName =new AssemblyName();
+AssemblyBuilder myAssemblyBuilder = AppDomain.CurrentDomain.DefineDynamicAssembly
+(myAssemblyName, AssemblyBuilderAccess.RunAndSave);
+myAssemblyBuilder.Save("MyAssembly.dll");
+D. AssemblyName myAssemblyName =new AssemblyName("MyAssembly");
+AssemblyBuilder myAssemblyBuilder =AppDomain.CurrentDomain.DefineDynamicAssembly
+(myAssemblyName, AssemblyBuilderAccess.Save);
+myAssemblyBuilder.Save("C. \\MyAssembly.dll");
+Answer: B
+
+You need to write a code segment that performs the following tasks:
+Retrieves the name of each paused service. ? Passes the name to the Add method of Collection1.
+Which code segment should you use?
+A. ManagementObjectSearcher searcher = new ManagementObjectSearcher("Select * from
+Win32_Service
+where State = 'Paused'");
+foreach (ManagementObject svc in searcher.Get()) {Collection1.Add(svc["DisplayName"]); }
+B. ManagementObjectSearcher searcher = new ManagementObjectSearcher("Select * from
+Win32_Service",
+"State = 'Paused'");
+foreach (ManagementObject svc in searcher.Get()) { Collection1.Add(svc["DisplayName"]);}
+C. ManagementObjectSearcher searcher = new ManagementObjectSearcher( "Select * from
+Win32_Service");
+foreach (ManagementObject svc in searcher.Get())
+{if ((string) svc["State"] == "'Paused'") {Collection1.Add(svc["DisplayName"]); }}
+D. ManagementObjectSearcher searcher =new ManagementObjectSearcher();
+searcher.Scope = new ManagementScope("Win32_Service");
+foreach (ManagementObject svc in searcher.Get())
+{if ((string)svc["State"] == "Paused") {Collection1.Add(svc["DisplayName"]); }}
+Answer: A
+
+Your company uses an application named Application1 that was compiled by using the .NET
+Framework version 1.0. The application currently runs on a shared computer on which the .NET
+Framework versions 1.0 and 1.1 are installed. You need to move the application to a new computer on which the .NET Framework versions 1.1 and 2.0 are installed. The application is compatible with the .NET Framework 1.1, but it is incompatible with the .NET Framework 2.0. You need to ensure that the application will use the .NET Framework version 1.1 on the new computer. What should you do?
+A. Add the following XML element to the application configuration file.
+<configuration>
+<startup>
+<supportedRuntime version="1.1.4322" />
+<startup>
+</configuration>
+B. Add the following XML element to the application configuration file.
+<configuration>
+<runtime>
+<assemblyBinding xmlns="urn:schemasmicrosoftcom:
+asm.v1">
+<dependentAssembly>
+<assemblyIdentity name="Application1"
+publicKeyToken="32ab4ba45e0a69a1" culture="neutral" />
+<bindingRedirect oldVersion="1.0.3075.0" newVersion="1.1.4322.0"/>
+</dependentAssembly>
+</assemblyBinding>
+</runtime>
+</configuration>
+C. Add the following XML element to the machine configuration file.
+<configuration>
+<startup>
+<requiredRuntime version="1.1.4322" />
+<startup>
+</configuration>
+D. Add the following XML element to the machine configuration file.
+<configuration>
+<runtime>
+<assemblyBinding xmlns="urn:schemasmicrosoftcom:
+asm.v1">
+<dependentAssembly>
+<assemblyIdentity name="Application1"
+publicKeyToken="32ab4ba45e0a69a1" culture="neutral" />
+<bindingRedirect oldVersion="1.0.3075.0" newVersion="1.1.4322.0"/>
+</dependentAssembly>
+</assemblyBinding>
+</runtime>
+</configuration>
+Answer: A
+
+You are using the Microsoft Visual Studio 2005 IDE to examine the output of a method that returns a string. You assign the output of the method to a string variable named fName. You need to write a code segment that prints the following on a single line The message. "Test Failed. " The value of fName if the value of fName does not equal "John" You also need to ensure that the code segment simultaneously facilitates uninterrupted execution of the application. Which code segment should you use?
+A. Debug.Assert(fName == "John", "Test FaileD. ", fName);
+B. Debug.WriteLineIf(fName != "John", fName, "Test Failed");
+C. if (fName != "John") {Debug.Print("Test FaileD. "); Debug.Print(fName); }
+D. if (fName != "John") {Debug.WriteLine("Test FaileD. "); Debug.WriteLine(fName); }
+Answer: B
+
+You are creating an application that lists processes on remote computers. The application requires a method that performs the following tasks: Accept the remote computer name as a string parameter named strComputer.Return an ArrayList object that contains the names of all processes that are running on that computer. You need to write a code segment that retrieves the name of each process that is running on the remote computer and adds the name to the ArrayList object. Which code segment should you use?
+A. ArrayList al = new ArrayList();
+Process[] procs = Process.GetProcessesByName(strComputer);
+foreach (Process proc in procs) { al.Add(proc);}
+B. ArrayList al = new ArrayList();
+Process[] procs = Process.GetProcesses(strComputer);
+foreach (Process proc in procs) { al.Add(proc);}
+C. ArrayList al = new ArrayList();
+Process[] procs = Process.GetProcessesByName(strComputer);
+foreach (Process proc in procs) {al.Add(proc.ProcessName);}
+D. ArrayList al = new ArrayList();
+Process[] procs = Process.GetProcesses(strComputer);
+foreach (Process proc in procs) {al.Add(proc.ProcessName);}
+Answer: D
+
+You are testing a newly developed method named PersistToDB. This method accepts a parameter oftype EventLogEntry. This method does not return a value. You need to create a code segment that helpsyou to test the method. The code segment must read entries from the application log of local computers and then pass the entries on to the PersistToDB method. The code block must pass only events of type Error or Warning from the source MySource to the PersistToDB method. Which code segment should you use?
+A. EventLog myLog = new EventLog("Application", ".");
+foreach (EventLogEntry entry in myLog.Entries)
+{if (entry.Source == "MySource") { PersistToDB(entry); } }
+B. EventLog myLog = new EventLog("Application", ".");
+myLog.Source = "MySource";
+foreach (EventLogEntry entry in myLog.Entries) {
+if (entry.EntryType == (EventLogEntryType.Error & EventLogEntryType.Warning))
+{ PersistToDB(entry); }}
+C. EventLog myLog = new EventLog("Application", ".");
+foreach (EventLogEntry entry in myLog.Entries)
+{ if (entry.Source == "MySource")
+{if (entry.EntryType == EventLogEntryType.Error || entry.EntryType == EventLogEntryType.Warning)
+{PersistToDB(entry); } } }
+D. EventLog myLog = new EventLog("Application", ".");
+myLog.Source = "MySource";
+foreach (EventLogEntry entry in myLog.Entries)
+{if (entry.EntryType == EventLogEntryType.Error || entry.EntryType == EventLogEntryType.Warning)
+{PersistToDB(entry); }
+Answer: C
+
+You need to generate a report that lists language codes and region codes. Which code segment
+should you use?
+A. foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.SpecificCultures))
+{ // Output the culture information...}
+B. CultureInfo culture = new CultureInfo(""); CultureTypes types = culture.CultureTypes;
+// Output the culture information...
+C. foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.NeutralCultures))
+{ // Output the culture information...}
+D. foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.ReplacementCultures))
+{ // Output the culture information...}
+Answer: A
+
+You create an application that stores information about your customers who reside in various regions. You are developing internal utilities for this application. You need to gather regional information about your customers in Canada. Which code segment should you use?
+A. foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.SpecificCultures))
+{ // Output the region information...}
+B. CultureInfo cultureInfo = new CultureInfo("CA"); // Output the region information...
+C. RegionInfo regionInfo = new RegionInfo("CA"); // Output the region information...
+D. RegionInfo regionInfo = new RegionInfo("");if (regionInfo.Name == "CA")
+{ // Output the region information...}
+Answer: C
+
+You are developing a method that searches a string for a substring. The method will be localized to Italy. Your method accepts the following parameters: The string to be searched, which is named searchListThe string for which to search, which is named searchValue You need to write the code. Which code segment should you use?
+A. return searchList.IndexOf(searchValue);
+B. CompareInfo comparer = new CultureInfo("itIT").CompareInfo;
+return comparer.Compare(searchList, searchValue);
+C. CultureInfo comparer = new CultureInfo("itIT");
+if (searchList.IndexOf(searchValue) > 0) {return true;}
+else {return false;}
+D. CompareInfo comparer = new CultureInfo("itIT").
+CompareInfo;
+if (comparer.IndexOf(searchList, searchValue) > 0) {return true;}
+else { return false;}
+Answer: D
+
+You are developing an application for a client residing in Hong Kong. You need to display negative currency values by using a minus sign. Which code segment should you use?
+A. NumberFormatInfo culture = new CultureInfo("zhHK").
+NumberFormat;
+culture.NumberNegativePattern = 1; return numberToPrint.ToString("C", culture);
+B. NumberFormatInfo culture = new CultureInfo("zhHK").
+NumberFormat;
+culture.CurrencyNegativePattern = 1; return numberToPrint.ToString("C", culture);
+C. CultureInfo culture =new CultureInfo("zhHK")
+; return numberToPrint.ToString("(
+0)", culture);
+D. CultureInfo culture =new CultureInfo("zhHK")
+; return numberToPrint.ToString("()", culture);
+Answer: B
+
+You are developing a fiscal report for a customer. Your customer has a main office in the United States and a satellite office in Mexico. You need to ensure that when users in the satellite office generate the report, the current date is displayed in Mexican Spanish format. Which code segment should you use?
+A. DateTimeFormatInfo dtfi = new CultureInfo("esMX",
+false).DateTimeFormat;
+DateTime dt = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
+string dateString = dt.ToString(dtfi.LongDatePattern);
+B. Calendar cal = new CultureInfo("esMX",
+false).Calendar;
+DateTime dt = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
+Strong dateString = dt.ToString();
+C. string dateString = DateTimeFormatInfo.CurrentInfo GetMonthName(DateTime.Today.Month);
+D. string dateString = DateTime.Today.Month.ToString("esMX");
+Answer: A
+
+You are developing a method to encrypt sensitive data with the Data Encryption Standard (DES)
+algorithm. Your method accepts the following parameters: The byte array to be encrypted, which is named messageAn encryption key, which is named keyAn initialization vector, which is named iv You need to encrypt the data. You also need to write the encrypted data to a MemoryStream object. Which code segment should you use?
+A. DES des = new DESCryptoServiceProvider();
+des.BlockSize = message.Length;
+ICryptoTransform crypto = des.CreateEncryptor(key, iv);
+MemoryStream cipherStream = new MemoryStream();
+CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamMode.Write);
+cryptoStream.Write(message, 0, message.Length);
+B. DES des = new DESCryptoServiceProvider();
+ICryptoTransform crypto = des.CreateDecryptor(key, iv);
+MemoryStream cipherStream = new MemoryStream();
+CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamMode.Write);
+cryptoStream.Write(message, 0, message.Length);
+C. DES des = new DESCryptoServiceProvider();
+ICryptoTransform crypto = des.CreateEncryptor();
+MemoryStream cipherStream = new MemoryStream();
+CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamMode.Write);
+cryptoStream.Write(message, 0, message.Length);
+D. DES des = new DESCryptoServiceProvider();
+ICryptoTransform crypto = des.CreateEncryptor(key, iv);
+MemoryStream cipherStream = new MemoryStream();
+CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamMode.Write);
+cryptoStream.Write(message, 0, message.Length);
+Answer: D
+
+You are developing a method to call a COM component. You need to use declarative security to
+explicitly request the runtime to perform a full stack walk. You must ensure that all callers have the required level of trust for COM interop before the callers execute your method. Which attribute should you place on the method?
+A. [SecurityPermission(SecurityAction.Demand, Flags=SecurityPermissionFlag.UnmanagedCode)]
+B. [SecurityPermission(SecurityAction.LinkDemand,
+Flags=SecurityPermissionFlag.UnmanagedCode)]
+C. [SecurityPermission(SecurityAction.Assert, Flags = SecurityPermissionFlag.UnmanagedCode)]
+D. [SecurityPermission(SecurityAction.Deny, Flags = SecurityPermissionFlag.UnmanagedCode)]
+Answer: A
+
+You are developing a method to hash data for later verification by using the MD5 algorithm. The data is passed to your method as a byte array named message. You need to compute the hash of the incoming parameter by using MD5. You also need to place the result into a byte array. Which code segment should you use?
+A. HashAlgorithm algo = HashAlgorithm.Create("MD5");
+byte[] hash = algo.ComputeHash(message);
+B. HashAlgorithm algo = HashAlgorithm.Create("MD5");
+byte[] hash = BitConverter.GetBytes(algo.GetHashCode());
+C. HashAlgorithm algo;algo = HashAlgorithm.Create(message.ToString());byte[] hash = algo.Hash;
+D. HashAlgorithm algo = HashAlgorithm.Create("MD5");
+byte[] hash = null;algo.TransformBlock(message, 0, message.Length, hash, 0);
+Answer: A
+
+You create a method that runs by using the credentials of the end user. You need to use Microsoft Windows groups to authorize the user. You must add a code segment that identifies whether a user is in the local group named Clerk. Which code segment should you use?
+A. WindowsIdentity currentUser = WindowsIdentity.GetCurrent();
+foreach (IdentityReference grp in currentUser.Groups)
+{NTAccount grpAccount = ((NTAccount)grp.Translate(typeof(NTAccount)));
+isAuthorized = grpAccount.Value.Equals(Environment.MachineName + @"\Clerk");
+if (isAuthorized) break;}
+B. WindowsPrincipal currentUser = (WindowsPrincipal)Thread.CurrentPrincipal;
+isAuthorized = currentUser.IsInRole("Clerk");
+C. GenericPrincipal currentUser = (GenericPrincipal) Thread.CurrentPrincipal;
+isAuthorized = currentUser.IsInRole("Clerk");
+D. WindowsPrincipal currentUser = (WindowsPrincipal)Thread.CurrentPrincipal;
+isAuthorized = currentUser.IsInRole(Environment.MachineName);
+Answer: B
+
+You are changing the security settings of a file named MyData.xml. You need to preserve the existing inherited access rules. You also need to prevent the access rules from inheriting changes in the future. Which code segment should you use?
+A. FileSecurity security = new FileSecurity("mydata.xml", AccessControlSections.All);
+security.SetAccessRuleProtection(true, true);File.SetAccessControl("mydata.xml", security);
+B. FileSecurity security = new FileSecurity();
+security.SetAccessRuleProtection(true, true);File.SetAccessControl("mydata.xml", security);
+C. FileSecurity security = File.GetAccessControl("mydata.xml");security.SetAccessRuleProtection(true,
+true);
+D. FileSecurity security = File.GetAccessControl("mydata.xml");
+security.SetAuditRuleProtection(true, true);File.SetAccessControl("mydata.xml", security);
+Answer: A
+
+You are loading a new assembly into an application. You need to override the default evidence for the assembly. You require the common language runtime (CLR) to grant the assembly a permission set, as if the assembly were loaded from the local intranet zone. You need to build the evidence collection. Which code segment should you use?
+A. Evidence evidence = new Evidence(Assembly.GetExecutingAssembly().Evidence );
+B. Evidence evidence = new Evidence();evidence.AddAssembly(new Zone(SecurityZone.Intranet));
+C. Evidence evidence = new Evidence();evidence.AddHost(new Zone(SecurityZone.Intranet));
+D. Evidence evidence = new Evidence(AppDomain.CurrentDomain.Evidence );
+Answer: C
+
+You are writing a method that returns an ArrayList named al. You need to ensure that changes to the ArrayList are performed in a thread-safe manner. Which code segment should you use?
+A. ArrayList^ al = gcnew ArrayList();
+lock (al->SyncRoot)
+{
+return al;
+}
+B. ArrayList^ al = gcnew ArrayList();
+lock (al->SyncRoot.GetType())
+{
+return al;
+}
+C. ArrayList^ al = gcnew ArrayList();
+Monitor::Enter(al);
+Monitor::Exit(al);
+return al;
+D. ArrayList^ al = gcnew ArrayList();
+ArrayList^ sync_al = ArrayList::Synchronized(al);
+return sync_al;
+Answer: D
+
+You need to create a method to clear a Queue named q. Which code segment should you use?
+A. for each (Object^ e in q) {
+q.Dequeue();
+}
+B. for each (Object^ e in q) {
+q.Enqueue(0);
+}
+C. q.Clear();
+D. q.Dequeue();
+Answer: C
+
+You are creating a class to compare a specially-formatted string. The default collation comparisons donot apply.You need to implement the IComparable<string> interface. Which code segment should you use?
+A. public ref class Person : public IComparable<String^>{
+public : virtual Int32 CompareTo(String^ other){
+...
+}
+}
+B. public ref class Person : public IComparable<String^>{
+public : virtual Int32 CompareTo(Object^ other){
+...
+}
+}
+C. public ref class Person : public IComparable<String^>{
+public : virtual Boolean CompareTo(String^ other){
+...
+}
+}
+D. public ref class Person : public IComparable<String^>{
+public : virtual Boolean CompareTo(Object^ other){
+...
+}
+}
+Answer: A
+
+You are creating an undo buffer that stores data modifications. You need to ensure that the undo functionality undoes the most recent data modifications first. You also need to ensure that the undo buffer permits the storage of strings only. Which code segment should you use?
+A. Stack<String^> undoBuffer = gcnew Stack<String^>();
+B. Stack undoBuffer = gcnew Stack();
+C. Queue<String^> undoBuffer = gcnew Queue<String^>();
+D. Queue undoBuffer = gcnew Queue();
+Answer: A
+
+You are developing an application to assist the user in conducting electronic surveys. The survey consists of 25 true-or-false questions. You need to perform the following tasks:
+·Initialize each Answer to true.
+·Minimize the amount of memory used by each survey.
+Which storage option should you choose?
+A. BitVector32^ Answers = gcnew BitVector32(1);
+B. BitVector32^ Answers = gcnew BitVector32(-1);
+C. BitArray^ Answers = gcnew BitArray (1);
+D. BitArray^ Answers = gcnew BitArray(-1);
+Answer: B
+
+You are creating a class named Age.
+You need to ensure that the Age class is written such that collections of Age objects can be sorted.
+Which code segment should you use?
+A. public ref class Age {
+public : Int32 Value;
+public : virtual Object CompareTo(Object^ obj) {
+if (obj->GetType() == Age::GetType()) {
+Age^ _age = (Age^) obj;
+return Value.CompareTo(obj);
+}
+throw gcnew ArgumentException("object not an Age");
+}
+};
+B. public ref class Age {
+public : Int32 Value;
+public : virtual Object CompareTo(Int32^ iValue) {
+try {
+return Value.CompareTo(iValue);
+} catch (Exception^ ex) {
+throw gcnew ArgumentException ("object not an Age");
+}
+}
+};
+C. public ref class Age : public IComparable {
+public : Int32 Value;
+public : virtual Int32 CompareTo(Object^ obj) {
+if (obj->GetType() == Age::GetType()) {
+Age^ _age = (Age^) obj;
+return Value.CompareTo(_age->Value);
+}
+throw gcnew ArgumentException("object not an Age");
+}
+};
+D. public ref class Age : public IComparable {
+public : Int32 Value;
+public : virtual Int32 CompareTo(Object^ obj) {
+try {
+return Value.CompareTo(((Age^) obj)->Value);
+} catch (Exception^ ex) {
+return -1;
+}
+}
+};
+Answer: C
+
+You are developing a custom event handler to automatically print all open documents. The event
+handler helps specify the number of copies to be printed.
+You need to develop a custom event arguments class to pass as a parameter to the event handler.
+Which code segment should you use?
+A. public ref class PrintingArgs {
+public :
+int Copies;
+PrintingArgs (int numberOfCopies) {
+this->Copies = numberOfCopies;
+}
+};
+B. public ref class PrintingArgs : public EventArgs {
+public :
+
+int Copies;
+PrintingArgs(int numberOfCopies) {
+this->Copies = numberOfCopies;
+}};
+C. public ref class PrintingArgs {
+public :
+EventArgs Args;
+PrintingArgs(EventArgs ea) {
+this->Args = ea;
+}};
+D. public ref class PrintingArgs : public EventArgs {
+public :
+int Copies;};
+Answer: B
+
+You write the following code.
+public delegate void FaxDocs(Object^ sender, FaxArgs^ args);
+You need to create an event that will invoke FaxDocs.
+Which code segment should you use?
+A. public : static event FaxDocs^ Fax;
+B. public : static event Fax^ FaxDocs;
+public ref class FaxArgs : public EventArgs {
+C. public :
+String^ CoverPageInfo;
+FaxArgs (String^ coverInfo) {
+this->CoverPageInfo = coverInfo;
+}
+};
+public ref class FaxArgs : public EventArgs {
+D. public :
+String^ CoverPageInfo;
+};
+Answer: A
+
+You need to write a multicast delegate that accepts a DateTime argument and returns a Boolean value. Which code segment should you use?
+A. public delegate int PowerDeviceOn(bool, DateTime);
+B. public delegate bool PowerDeviceOn(Object, EventArgs);
+C. public delegate void PowerDeviceOn(DateTime);
+D. public delegate bool PowerDeviceOn(DateTime);
+Answer: D
+
+You develop a service application named PollingService that periodically calls long-running procedures.
+These procedures are called from the DoWork method.
+You use the following service application code.
+ref class PollingService : public ServiceBase {
+public :
+static bool blnExit = false;
+protected :
+override void OnStart(String^ args) {
+do {
+DoWork();
+} while (!blnExit);
+}
+override void OnStop() {
+blnExit = true;
+}
+private :
+void DoWork() {}
+};
+When you attempt to start the service, you receive the following error message: “Could not start the
+PollingService service on the local computer. Error 1053: The service did not respond to the start or control
+request in a timely fashion.”
+You need to modify the service application code so that the service starts properly.
+What should you do?
+A. Move the loop code into the constructor of the service class from the OnStart method.
+B. Drag a timer component onto the design surface of the service. Move the calls to the long-running
+procedure from the OnStart method into the Tick event procedure of the timer, set the Enabled property of
+the timer to True, and call the Start method of the timer in the OnStart method.
+C. Add a class-level System.Timers.Timer variable to the service class code. Move the call to the DoWork
+method into the Elapsed event procedure of the timer, set the Enabled property of the timer to True, and call
+the Start method of the timer in the OnStart method.
+D. Move the loop code from the OnStart method into the DoWork method.
+Answer: C
+
+You develop a service application that needs to be deployed. Your network administrator creates a
+specific user account for your service application.
+You need to configure your service application to run in the context of this specific user account.
+What should you do?
+A. Prior to installation, set the StartType property of the ServiceInstaller class.
+B. Prior to installation, set the Account, Username, and Password properties of the ServiceProcessInstaller
+class.
+C. Use the CONFIG option of the net.exe command-line tool to install the service.
+D. Use the installutil.exe command-line tool to install the service.
+Answer: B
+
+You develop a service application named FileService. You deploy the service application to multiple servers on your network.
+You implement the following code segment. (Line numbers are included for reference only.)
+01 public :
+02 void StartService(String^ serverName){
+04 ServiceController^ crtl = gcnew
+05 ServiceController("FileService");
+06 if (crtl->Status == ServiceControllerStatus::Stopped){}
+07 }
+You need to develop a routine that will start FileService if it stops. The routine must start FileService on the
+server identified by the serverName input parameter.
+Which two lines of code should you add to the code segment? (Each correct Answer presents part of the
+solution. Choose two.)
+A. Insert the following line of code between lines 03 and 04:
+crtl.ServiceName = serverName;
+B. Insert the following line of code between lines 03 and 04:
+crtl.MachineName = serverName;
+C. Insert the following line of code between lines 03 and 04:
+crtl.Site.Name = serverName;
+D. Insert the following line of code between lines 04 and 05:
+crtl.Continue();
+E. Insert the following line of code between lines 04 and 05:
+crtl.Start();
+F. Insert the following line of code between lines 04 and 05:
+crtl.ExecuteCommand(0);
+Answer: B AND E
+
+You write a class named Employee that includes the following code segment. Private m_EmployeeId As String Private m_EmployeeName As String Private m_JobTitleName As String Public Function GetName() As String Return m_EmployeeName End Function Public Function GetTitle() As String Return m_JobTitleName End Function End Class You need to expose this class to COM in a type library. The COM interface must also facilitate forward-compatibility across new versions of the Employee class. You need to choose a method for generating the COM interface. What should you do?
+A. Add the following attribute to the class definition.<ClassInterface(ClassInterfaceType.None)> _Public Class Employee
+B. Add the following attribute to the class definition.<ClassInterface(ClassInterfaceType.AutoDual)> _Public Class Employee
+C. Add the following attribute to the class definition.<ComVisible(True)> _Public Class Employee
+D. Define an interface for the class and add the following attribute to the class definition.<ClassInterface(ClassInterfaceType.None)> _Public Class EmployeeImplements IEmployee
+Answer: D
+
+You are developing a custom event handler to automatically print all open documents. The event handler helps specify the number of copies to be printed. You need to develop a custom event arguments class to pass as a parameter to the event handler. Which code segment should you use?
+A. public class PrintingArgs { private int copies; public PrintingArgs(int numberOfCopies) { this.copies = numberOfCopies;
+} public int Copies { get { return this.copies; } }}
+B. public class PrintingArgs : EventArgs { private int copies; public PrintingArgs(int numberOfCopies) { this.copies = numberOfCopies; } public int Copies { get { return this.copies; } }}
+C. public class PrintingArgs { private EventArgs eventArgs; public PrintingArgs(EventArgs ea) { this.eventArgs = ea; }public EventArgs Args {get { return eventArgs; }}}
+D. public class PrintingArgs : EventArgs { private int copies;}
+Answer: B
+
+You need to write a code segment that performs the following tasks: Retrieves the name of each paused service. Passes the name to the Add method of Collection1. Which code segment should you use?
+A. ManagementObjectSearcher^ searcher = gcnew ManagementObjectSearcher( “Select * from Win32_Service where State = ‘Paused’”);for each (ManagementObject^ svc in searcher->Get()) { Collection1->Add(svc[“DisplayName”]);}
+B. ManagementObjectSearcher^ searcher = gcnew ManagementObjectSearcher( “Select * from Win32_Service”, “State = ‘Paused’”);for each (ManagementObject^ svc in searcher->Get()) { Collection1->Add(svc[“DisplayName”]);}
+C. ManagementObjectSearcher^ searcher = gcnew ManagementObjectSearcher( “Select * from Win32_Service”);for each (ManagementObject^ svc in searcher->Get()) { if ((String^) svc["State"] == "'Paused'") { Collection1->Add(svc[“DisplayName”]); }}
+D. ManagementObjectSearcher^ searcher = gcnew ManagementObjectSearcher();searcher->Scope = gcnew ManagementScope(“Win32_Service”);for each (ManagementObject^ svc in searcher->Get()) { if ((String^)svc["State"] == "Paused") { Collection1->Add(svc[“DisplayName”]); }}
+Answer: A
+
+You are developing an application that dynamically loads assemblies from an application directory. You need to write a code segment that loads an assembly named Company1.dll into the current application domain. Which code segment should you use?
+A. AppDomain^ domain = AppDomain::CurrentDomain;String^ myPath = Path::Combine(domain->BaseDirectory, “Company1.dll”);Assembly^ assm = Assembly::LoadFrom(myPath);
+B. AppDomain ^ domain = AppDomain::CurrentDomain;String^ myPath = Path::Combine(domain->BaseDirectory, “Company1.dll”);Assembly^ assm = Assembly::Load(myPath);
+C. AppDomain^ domain = AppDomain::CurrentDomain;String^ myPath = Path::Combine(domain->DynamicDirectory, “Company1.dll”);Assembly^ assm = AppDomain::CurrentDomain::Load(myPath);
+D. AppDomain^ domain = AppDomain::CurrentDomain;Assembly^ assm = Domain->GetData(“Company1.dll”);
+Answer: A
+
+You are testing a newly developed method named PersistToDB. This method accepts a parameter of type EventLogEntry. This method does not return a value. You need to create a code segment that helps you to test the method. The code segment must read entries from the application log of local computers and then pass the entries on to the PersistToDB method. The code block must pass only events of type Error or Warning from the source MySource to the PersistToDB method. Which code segment should you use?
+A. EventLog myLog = new EventLog(“Application”, “.”); foreach (EventLogEntry entry in myLog.Entries) { if (entry.Source == "MySource") { PersistToDB(entry); } }
+B. EventLog myLog = new EventLog(“Application”, “.”); myLog.Source = “MySource”; foreach (EventLogEntry entry in myLog.Entries) { if (entry.EntryType == (EventLogEntryType.Error & EventLogEntryType.Warning)) { PersistToDB(entry); } }
+C. EventLog myLog = new EventLog(“Application”, “.”); foreach (EventLogEntry entry in myLog.Entries) { if (entry.Source == "MySource") { if (entry.EntryType == EventLogEntryType.Error || entry.EntryType == EventLogEntryType.Warning) { PersistToDB(entry); } } }
+D. EventLog myLog = new EventLog(“Application”, “.”); myLog.Source = “MySource”; foreach (EventLogEntry entry in myLog.Entries) { if (entry.EntryType == EventLogEntryType.Error || entry.EntryType == EventLogEntryType.Warning) { PersistToDB(entry); }
+Answer: C
+
+You are developing a class library. Portions of your code need to access system environment variables. You need to force a runtime SecurityException only when callers that are higher in the call stack do not have the necessary permissions. Which call method should you use?
+A. Set->Demant();
+B. Set->Assert();
+C. Set->PermitOnly();
+D. Set->Deny();
+Answer: A
+
+Your application uses two threads, named thread One and thread Two. You need to modify the code to prevent the execution of thread One until thread Two completes execution. What should you do?
+A. Configure threadOne to run at a lower priority.
+B. Configure threadTwo to run at a higher priority.
+C. Use a WaitCallback delegate to synchronize the threads.
+D. Call the Sleep method of threadOne.
+Answer: C
+
+You are developing an application for a client residing in Hong Kong. You need to display negative currency values by using a minus sign. Which code segment should you use?
+A. NumberFormatInfo^ culture = gcnew CultureInfo(“zh-HK”)::NumberFormat; culture->NumberNegativePattern = 1; return numberToPrint->ToString(“C”, culture);
+B. NumberFormatInfo^ culture = gcnew CultureInfo(“zh-HK”)::NumberFormat; culture->CurrencyNegativePattern = 1; return numberToPrint->ToString(“C”, culture);
+C. CultureInfo^ culture = gcnew CultureInfo(“zh-HK”); return numberToPrint->ToString(“-(0)”, culture);
+D. CultureInfo^ culture = gcnew CultureInfo(“zh-HK”); return numberToPrint->ToString(“()”, culture);
+Answer:B
+
+You are developing a method to hash data with the Secure Hash Algorithm. The data is passed to your method as a byte array named message. You need to compute the hash of the incoming parameter by using SHA1. You also need to place the result into a byte array named hash. Which code segment should you use?
+A. SHA1 ^sha = gcnew SHA1CryptoServiceProvider();array<Byte>^hash = nullptr;sha >TransformBlock(message, 0, message->Length, hash, 0);
+B. SHA1 ^sha = gcnew SHA1CryptoServiceProvider();array<Byte>^hash = BitConverter::GetBytes(sha->GetHashCode());
+C. SHA1 ^sha = gcnew SHA1CryptoServiceProvider();array<Byte>^hash = sha >ComputeHash(message);
+D. SHA1 ^sha = gcnew SHA1CryptoServiceProvider();sha->GetHashCode();array<Byte>^hash = sha->Hash;
+Answer: C
+
+You are writing an application that uses SOAP to exchange data with other applications. You use a Department class that inherits from ArrayList to send objects to another application. The Department object is named dept. You need to ensure that the application serializes the Department object for transport by using SOAP. Which code should you use?
+A. SoapFormatter^ formatter = gcnew SoapFormatter();array<Byte>^ buffer = gcnew array<Byte>(dept->Capacity);MemoryStream^ stream = gcnew MemoryStream(buffer); for each (Object^ o in dept) { formatter->Serialize(stream, o);}
+B. SoapFormatter^ formatter = gcnew SoapFormatter();array<Byte>^ buffer = gcnew array<Byte>(dept->Capacity);MemoryStream^ stream = gcnew MemoryStream(buffer); formatter->Serialize(stream, dept);
+C. SoapFormatter^ formatter = gcnew SoapFormatter();MemoryStream^ stream = gcnew MemoryStream();for each (Object^ o in dept) { formatter->Serialize(stream, o);}
+D. SoapFormatter^ formatter = gcnew SoapFormatter();MemoryStream^ stream = gcnew MemoryStream();formatter->Serialize(stream, dept);
+Answer: D
+
+You are developing an application that will use custom authentication and role-based security. You need to write a code segment to make the runtime assign an unauthenticated principal object to each running thread. Which code segment should you use?
+A. AppDomain^ domain = AppDomain::CurrentDomain;domain->SetPrincipalPolicy(PrincipalPolicy::WindowsPrincipal);
+B. AppDomain^ domain = AppDomain::CurrentDomain;domain->SetThreadPrincipal(gcnew WindowsPrincipal(nullptr));
+C. AppDomain^ domain = AppDomain::CurrentDomain;domain- >SetAppDomainPolicy(PolicyLevel::CreateAppDomainLevel());
+D. AppDomain^ domain = AppDomain::CurrentDomain;domain- >SetPrincipalPolicy(PrincipalPolicy::UnauthenticatedPrincipal);
+Answer: D
+
+You write the following code. public delegate void FaxDocs(Object^ sender, FaxArgs^ args); You need to create an event that will invoke FaxDocs. Which code segment should you use?
+A. public : static event FaxDocs^ Fax;
+B. public : static event Fax^ FaxDocs;
+C. public ref class FaxArgs : public EventArgs { public : String^ CoverPageInfo; FaxArgs (String^ coverInfo) { this->CoverPageInfo = coverInfo; }};
+D. public ref class FaxArgs : public EventArgs { public : String^ CoverPageInfo;};
+Answer: A
+
+You create an application to send a message by e-mail. An SMTP server is available on the local subnet. The SMTP server is named smtp.Company.com. To test the application, you use a source address, me@Company.com, and a target address, you@Company.com. You need to transmit the e-mail message. Which code segment should you use?
+A. MailAddress addrFrom = new MailAddress(“me@Company.com”, “Me”);MailAddress addrTo = new MailAddress(“you@Company.com”, “You”);MailMessage message = new MailMessage(addrFrom, addrTo);message.Subject = “Greetings!”;message.Body = “Test”;message.Dispose();
+B. string strSmtpClient = “mstp.Company.com”;string strFrom = “me@Company.com”;string strTo = “you@Company.com”;string strSubject = “Greetings!”;string strBody = “Test”;MailMessage msg = new MailMessage(strFrom, strTo, strSubject, strSmtpClient);
+C. MailAddress addrFrom = new MailAddress(“me@Company.com”);MailAddress addrTo = new MailAddress(“you@Company.com”);MailMessage message = new MailMessage(addrFrom, addrTo);message.Subject = “Greetings!”;message.Body = “Test”;SmtpClient client = new SmtpClient(“smtp.Company.com”);client.Send(message);
+D. MailAddress addrFrom = new MailAddress(“me@Company.com”, “Me”);MailAddress addrTo = new MailAddress(“you@Company.com”, “You”);MailMessage message = new MailMessage(addrFrom, addrTo);message.Subject = “Greetings!”;message.Body = “Test”;SocketInformation info = new SocketInformation();Socket client = new Socket(info);System.Text.ASCIIEncoding enc = new System.Text.ASCIIEncoding();byte[] msgBytes = enc.GetBytes(message.ToString());client.Send(msgBytes);
+Answer: C
+
+You are developing an application to perform mathematical calculations. You develop a class named CalculationValues. You write a procedure named PerformCalculation that operates on an instance of the class. You need to ensure that the user interface of the application continues to respond while calculations are being performed. You need to write a code segment that calls the PerformCalculation procedure to achieve this goal. Which code segment should you use?
+A. private void PerformCalculation() {...} private void DoWork(){ Calculation Values myValues = new Calculation Values(); Thread newThread = new Thread( new ThreadStart(PerformCalculation)); new Thread.Start(myValues);}
+B. private void PerformCalculation() {...} private void DoWork(){ Calculation Values myValues = new Calculation Values(); ThreadStart delStart = new ThreadStart(PerformCalculation); Thread newThread = new Thread(delStart);if (newThread.IsAlive) {newThread.Start(myValues);}}
+C. private void PerformCalculation (CalculationValues values) {...} private void DoWork(){ Calculation Values myValues = new Calculation Values(); Application.DoEvents(); PerformCalculation(myValues); Application.DoEvents();}
+D. private void PerformCalculation(object values) {...} private void DoWork(){ Calculation Values myValues = new Calculation Values(); Thread newThread = new Thread( new ParameterizedThreadStart(PerformCalculation)); newThread.Start(myValues);}
+Answer: D
+
+You write the following code. public delegate void FaxDocs(object sender, FaxArgs args); You need to create an event that will invoke FaxDocs. Which code segment should you use?
+A. pulic static event FaxDocs Fax;
+B. public static event Fax FaxDocs;
+C. public class FaxArgs : EventArgs { private string coverPageInfo; public FaxArgs(string coverInfo) { this.coverPageInfo = coverPageInfo; } public string CoverPageInformation { get {return this.coverPageInfo;} }}
+D. public class FaxArgs : EventArgs { private string coverPageInfo; public string CoverPageInformation { get {return this.coverPageInfo;} }}
+Answer: A
+
+You are developing a custom event handler to automatically print all open documents. The event handler helps specify the number of copies to be printed. You need to develop a custom event arguments class to pass as a parameter to the event handler. Which code segment should you use?
+A. Public Class PrintingArgs Private _copies As Integer Public Sub New(ByVal numberOfCopies As Integer) Me._copies = numberOfCopies End Sub Public ReadOnly Property Copies() As Integer Get Return Me._copies End Get End PropertyEnd Class
+B. Public Class PrintingArgs Inherits EventArgs Private _copies As Integer Public Sub New(ByVal numberOfCopies As Integer) Me._copies = numberOfCopies End Sub Public ReadOnly Property Copies() As Integer Get Return Me._copies End Get End PropertyEnd Class
+C. Public Class PrintingArgs Private eventArgs As EventArgs Public Sub New(ByVal args As EventArgs) Me.eventArgs = args End Sub Public ReadOnly Property Args() As EventArgs Get Return eventArgs End Get End PropertyEnd Class
+D. Public Class PrintingArgs Inherits EventArgs Private copies As IntegerEnd Class
+Answer: B
+
+You write the following code segment to call a function from the Win32 Application Programming Interface (API) by using platform invoke. string personName = “N?el”;string msg = “Welcome” + personName + “to club”!”;bool rc = User32API.MessageBox(0, msg, personName, 0); You need to define a method prototype that can best marshal the string data. Which code segment should you use?
+A. [DllImport("user32", CharSet = CharSet.Ansi)]public static extern bool MessageBox(int hWnd, String text, String caption, uint type);}
+B. [DllImport("user32", EntryPoint = "MessageBoxA", CharSet = CharSet.Ansi)]public static extern bool MessageBox(int hWnd, [MarshalAs(UnmanagedType.LPWStr)]String text, [MarshalAs(UnmanagedType.LPWStr)]String caption, uint type);}
+C. [DllImport("user32", CharSet = CharSet.Unicode)]public static extern bool MessageBox(int hWnd, String text, String caption, uint type);}
+D. [DllImport("user32", EntryPoint = "MessageBoxA", CharSet = CharSet.Unicode)]public static extern bool MessageBox(int hWnd, [MarshalAs(UnmanagedType.LPWStr)]String text, [MarshalAs(UnmanagedType.LPWStr)]String caption, uint type);}
+Answer: C

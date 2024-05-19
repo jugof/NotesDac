@@ -1,0 +1,352 @@
+
+ASDM:
+	Advanced Software Development Methodologies 
+	
+	SDLC:
+
+		Waterfall Model:  no
+			
+
+		
+	
+	
+	using Spiral Software Development Lifecycle
+		
+	CD/CI:
+		Spiral Model: yes
+		
+	Task based execution of your project
+	
+	Sprint mechanism:
+	
+	Sprint
+		a small cycle
+			Task:
+				60 % - 70 %  Requirement gathering
+				Creating SRS document to capture all.
+				Activities:
+					1.
+					2.
+					3.
+					4.
+					5.Review , suggestions
+					6.Backlog-----
+
+
+
+	 	Second day:
+				1.Backlog-----
+				2.Todays Task:
+				Activities:
+					1.
+					2.
+
+					
+
+
+
+
+Have you decided  your project is going to be online ?
+Yes				
+
+Have you decided your project will be implmented using fullstack techologies?
+Yes
+
+Have you chosed your 
+	Front End ------------------------HTML5.0, CSS 3, Bootstrap,javascript,  SPA ( Angular)
+	Web Technology--------------------
+				  Which Web Server ?
+					Tomcat-------Java Web Server
+								nginx
+				   REST API ?	
+					Sprint Boot API
+				   MVC Framework:
+						Spring MVC
+				   Java Full stack:
+					Maven Project
+						pom.xml----
+							dependecies:
+								data base connectors
+								JSON serializers
+							 xml,.........etc.
+
+				JPA:
+					Java Persistent  API
+							
+					encapsulation of database connectivity
+					 Hibernate
+				         JDBC connecitity
+						
+					   POCO Objects:   .NET
+					   POJO objects:    Java-------------
+				-------Have you identifies you POJO classes
+					
+		Have you identified Business Objects of  your project
+						
+		Book, Author, Publisher,
+		Booking process----
+				 reservation,
+				 cancellation,
+				 monitoring,
+				 logging
+				 Cart model
+
+		Reports to be generated  (BI)------- dashboard-----
+							    charts, grid, Tablular data
+
+				 Top ten books on Demand
+				 Top five best publisher
+				 Payment Outstanding
+				 trending books
+
+
+		session  tracking----------------- session management
+		Secure
+		Authetication----
+				 User Management:
+					login, logout,
+					registration,
+					Change password, Forgrot password
+					Update Personal information
+					CRUD operations
+					C- creating  insertion
+					R-- read  existing data
+					u--- update existing data
+					d---- delete existing data
+
+
+		Authorization----:
+			Customer access-----
+			Staff Access-------
+			Admin Access------ 
+
+
+
+
+
+		Which approach  you are going to used while building your solution
+				
+		Data First Approach:
+			
+		Code First Appraoch:
+				
+				Object Oriented Approach
+					
+					Objects, Objects, Objects
+					
+					POJO
+
+				 after that talk about 
+
+					relationship between objects
+							one-to one
+							one-to many objecty
+
+
+	
+		SRS:	
+			Software Requrement Specification
+			
+			
+							
+
+						
+
+
+
+
+
+
+ Schedule:
+
+
+		8:30 am --- 10.00 am -------- first session
+		10:00 am ---10:20 am----------break
+		10:20 am----12:000 -------------second session
+
+		1:00 pm ----4:30 pm------------ Hands On
+
+
+Agenda:
+	ASDM:
+	
+	Concept:
+		 Understand business
+		  Understand what is data ?
+		  Understand what is functinality needed ?
+	SRS Document
+
+	Functional Team
+		QA Team,	     
+		Subject Matter experts
+		Business Analyst  
+		Customer it self----------shadi.com marriage , event management company
+			
+	
+	Design:
+	
+	Technical Team
+			Software Architect,  
+			IT Infrastructure experts
+	
+	   
+	
+
+	Designer Visualize  diagrams
+			
+		  ER  ( Entity Relationship Diagrams),
+		  DFD ( Data flow Diagrams)
+		  UML (Unified Modeling Diagrams)
+
+	How do you Develop Solution---------?
+
+	
++++++++++++
+		Development Enviornment:
+					 ( by free lance developer or by a development IT compnay)
+					 tools :
+						Visual Code, Visual Studio, Eclipse,Netbeans, sublime Text
+						local database (mysql),-----traffic, performance, 
+						local web server ( tomact, wamp, expressJS)
+						Spring boot tools
+					 do not need more hardware 
+					 4 GB RAM,  Intel i5 sufficient
+
+
+					for developer
+					for programming, integration, unit testing solution
+					one developer
+
+		Testing Enviornment:
+					for tester
+					tools:
+						unit testing tool
+						jasmine tool, postman, selenium tools
+						selenium Web driver tool,
+						testing tools
+
+					for testing functional requirements as well 
+						    non functional requirement implmented in solution.
+					Team of testers
+					complete server infrastructure
+						d/b----web--server----browser----- testing tool
+					
+	
+		Production Enviornment:
+
+Cloud Computing:   AWS or Azure or GCP---- Cloud technologies:
+			
+ use IT infra on rental basis and deploy thier applications , their data  ( Production Envirornment)
+			
+								
+					
+					( by a  company who provides online services )
+
+					a Real Time Infrastucture for Keeping your solution hosted 
+						to handle all possible request of enduser
+
+					Tools required for 
+						 hosting solution
+					Tools required for 
+						 monitoring solution
+							loggers, event monitors,etc
+					Tools required for 
+						 load balancing
+					Tools required for 
+						 Auto clustering
+							 BD clustering,
+							 component clustering,
+							 	Big data clusters
+									Hadoop, Hive, Pig
+								 Application clusters 
+									for Machine learning 
+					These tools are going to be 
+						firewalls
+						proxy servers, 
+						web servers,
+						app servers,
+						Big data clusters
+					
+					On the top these tools our Business Solution has been deployed:
+					Does production Env. contain
+							Testing tool  ----- no
+							development tools--- no
+
+
+
+					Robust Enviornment:
+						autoscale,
+						secure
+						Stable,
+						
+					complete solution is published on multiple servers
+					multiple servers might have been configured using cluster.
+
+
+					for endusers
+					for making available complete solution for endusers  to use.
+					millions of  end users
+
+				final stable code base
+				 realtime deployment
+				 Programs put in actual run
+
+
+
+		Develop: ( build solution)
+			 IDE Tool
+			 Eclipse tool
+			 Maven 
+			 Libraries 
+		Testing: (Test soloution)
+			 Unit Testing, White box Testing, JUnit, Selenuim tools
+			 UI Test, Load testing
+		
+                Deployment:(Deploy solution to Production Enviornment)
+			web application will be deployed to AWS cloud
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+IACSD :
+
+1.One project implemented using two full stack technologies.
+2.Each student will have code repository on github for project source code.
+3.Your application is published on internet.
+4.Documentation complete.
+
+
+1.Have you created you github account ?
+2.Have you create your free trail accont for  AWS Cloud ?
+3.Have you created you google drive  folder for keeping all project related document?

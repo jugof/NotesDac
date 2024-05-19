@@ -1,0 +1,146 @@
+
+	Good morning all of you
+
+	How are you ?
+	
+	Getting ready for learning new things ?
+
+	Cloud Ready Applications....
+	
+		Microservices--------
+		Loosely coupled applications but highly cohesive in execution.
+
+	Fresh start....
+		Every day is a new experience....
+
+
+	Can we slightly revise techical words .....?
+	
+	Data: Information
+	Application: Core operations to process data, show data
+					analysis of data
+	Source Code:
+		    Code to build application
+	Build Process:
+		    compilation, linking, building 
+
+	Day 6:
+		Cloud Ready Applications
+			Cloud apps
+				Google Apps
+				Office 365,
+				
+			using Microservices
+			 Loosely coupled , Highly cohesive functionalities
+			
+			Inside Containers
+			
+			Container Orchestration Platform  (PAAS)
+				Azure Container Service
+				Amazon Conttainer Service
+				Kuberneties
+				(Cloud Providers  PAAS)
+					Google, Amazon, Microsoft
+			Container Images, Container instances, Container execution
+				Container Exeuction Engine
+					Open Source Engine : Docker
+			
+	Is it possible for us to build our Business Application Using Microservices ?
+	Would it be possible to develop these application artifects
+				Using Web Apps, Mobile Apps, REST API, Application Services ?
+
+______________________________________________________________________________________________________________
+
+
+Recap:
+	Handson--- (Production Enviornment)
+
+		1.Create a simple Web Application.
+				Node JS HTTP server application
+				index.html------static/
+						dynamic page  ( javascript file, Angular , jQuery, ReactJS)
+				server.js, 
+					source code for 
+					   hosting and listening HTTP server on port no.
+				 	   used Node Modules
+						  fs   module-----dependencies
+						  http module
+						  url  module
+	       2.Run Node JS Application using Node command
+				
+				node server.js   -------------Node JS Runtime
+		   Node process is created inside Linux OS 
+
+
+		3.EC2 instance  in which   containing this enviornment using Linux server 
+			need to be configured with Security settings using Security Group
+		4.Set incomming rule or outgoing rule
+			by allowing and denying incomming request or outgoing reponses using firewall setting
+		5.Allow your Customers ( End users) to access web application using URL.
+			published URL
+			http://234.65.343.34:8081/index.html
+		6.We used Infrastructure As A Service provided by AWS with the help of  EC2 Cloud service.
+
+		7.If your virtual server hosted in AWS EC2 Service,
+				It would process incomming HTTP request from End Users.
+				To process that request , 
+					Virtual server would demand  CPU, RAM, Networking, storage from AWS ec2 Service
+				EC2 service of AWS keep monitoring  CPU utilization
+								    RAM utilization
+								    Network utilization
+								    Storage Utilization
+				based on this Billing is going to be set for subscriber
+						Transflower-------
+								no.hours virtual server running
+
+			Pay As you Go Model
+
+							
+			
+
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

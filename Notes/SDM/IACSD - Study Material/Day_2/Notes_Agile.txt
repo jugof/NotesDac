@@ -1,0 +1,164 @@
+
+https://chercher.tech/jira/agile-methodology
+
+https://chercher.tech/jira/jira-introduction
+
+https://chercher.tech/java/index-selenium-webdriver
+
+https://learn-automation.com/install-selenium-webdriver-with-c/
+
+
+
+Agile Software Development:
+
+In software development, agile practices approach discovering requirements and developing solutions through 
+	the collaborative effort of self-organizing
+	& cross-functional teams 
+	& their customer/end user
+
+
+Agile Methodology
+
+Agile project methodology is project management procedure 
+  in which the demands and solutions are managed through 
+  collaboration between team and customers and the testing activities are carried out concurrently. 
+  In simple words, agile method can be considered as one 
+	in which project development can be taken as a collection of many small sections.
+
+
+Agile methodology allows the continuous iteration of development and testing throughout the software development life cycle of the project
+
+.Speed up or bypass one or more life cycle phase
+.Usually less formal and reduced scope
+.Used for time-critical applications
+.Used in organizations that employ disciplined methods speed up or bypass one or more life cycle phases
+.Usually less formal and reduced scope
+.Used for time-critical applications
+.Used in organizations that employ disciplined methods
+
+
+
+Principles of Agile Methodology
+
+.The working software is the primary measure of progress.
+.Agile processes promote sustainable development.
+.The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+.Continuous attention to technical excellence and good design enhances agility.
+.Simplicity--the art of maximizing the amount of work not done--is essential.
+.The best architectures, requirements, and designs emerge from self-organizing teams
+.At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+.Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+.Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+.Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+
+The most efficient and effective method of conveying information to and within a development team is a face-to-face conversation.
+
+
+
+Advantages of Agile Methodology
+
+
+.The Agile methodology makes it easier to add features and functionality throughout the project
+.Program/module re-writes are expected as part of the project process to align to changing requirements
+.Project / Sprint priorities are assessed frequently
+.Communication is high on an Agile touch point (particularly SCRUM) due to daily touch points
+.Requirements are refined throughout the project as each sprint is completed to ensure the end product addresses the business need.
+.The testing at the end of each sprint ensures that bugs/defects are found early on in the process.
+.As a result of testing within the Sprint, the product can be launched anytime after a Sprint.
+.The agile methodology is very intense on developers and project team members as they are constantly engaged.
+.Conflicting priorities that impact project resource availability could derail one or more Sprints
+.It is potentially dangerous to introduce an agile project without a clear vision, time boxing, and scope trade-off discipline in place.
+.There is less predictability in an Agile project making the business case development, planning, costing and resourcing harder to accomplish and negotiate
+.Without a tangible plan, the final product can be significantly different than what was initially intended.
+.Adding resources to an agile project has a high impact on productivity as there is a tendency to have less documentation, making bring the resource up to speed difficult.
+
+
+
+
+
+Agile Methods
+
+
+Some of the Agile Methods are as follow:
+
+	Adaptive Software Development (ASD)
+	Feature Driven Development (FDD)
+	Crystal Clear
+	Dynamic Software Development Method (DSDM)
+	Rapid Application Development (RAD)
+	Scrum
+	Extreme Programming (XP)
+	Rational Unify Process (RUP)
+
+
+
+Agile Methodology
+AGILE
+
+1.Roles
+	Product Owner
+	Scrum Master
+	Team
+2.Artifacts
+	Product Backlog
+	Sprint Backlog
+	Burndown Charts
+3.Ceremonies
+	Sprint Planning
+	Sprint Review
+	Sprint Retrospective
+	Daily Scrum Meeting
+
+
+
+1.Meet
+2.Plan
+3.Design
+4.Develop
+5.Test
+6.Evaluate
+
+
+https://hangoutagile.com/popular-agile-methodologies-wave-1/
+
+
+Scrum:
+
+Scrum is today, somehow becomes the synonymous with Agile founded by Ken Schwaber and Jeff Sutherland. This agile methodology is definitely an improved project management process. It brings rhythm and synchronizes. people all working towards the same goal. I like how Scrum provides a simple. Starting framework that builds trust through incremental delivery. Plan a bit,deliver a bit, inspect and adapt.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

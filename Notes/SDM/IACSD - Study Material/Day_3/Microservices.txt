@@ -1,0 +1,73 @@
+
+Microservices
+
+The microservice architectural style is 
+an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. 
+
+These services are built around business capabilities and independently deployable by fully automated deployment machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.
+
+
+The keys concept here are 
+
+	small services , 
+	lightweight communication , 
+	independently deployable and 
+	minimum management centralization.
+
+
+So what we really need is an architecture where we can create our services COMPLETELY DECOUPLED. 
+This way you can deploy your services in several process or even in several machines without having to rewrite your codebase. 
+
+The only way to make your services completely decoupled is using message passing for service calls,
+this message passage system needs to be lightweight (so it can keep your system responsive) and the only way to implement it is having a centralized management.
+
+
+Nowadays we have high expectation from our users, they want a system fast, reliable and with 100% uptime,trying to achieve this on different domains, developers found some patterns which can make this possible, and they decided to create the reactive manifesto.
+
+Pillars of Reactive Manifesto
+
+	1.Responsive: 
+	2.Resilient:
+	3.Elastic:
+	4.Message Driven:
+
+
+1.Responsive: 
+Responsive systems focus on providing rapid and consistent response times, establishing reliable upper bounds so they deliver a consistent quality of service. This will improve your system usability and utility.
+
+2.Resilient: 
+The system stays responsive in the face of failure.Resilience is achieved by replication, containment, isolation and delegation. Failures are contained within each component, isolating components from each other and thereby ensuring that parts of the system can fail and recover without compromising the system as a whole. This will improve your system availability.
+
+3.Elastic: 
+The system stays responsive under varying workload.This implies designs that have no contention points or central bottlenecks, resulting in the ability to shard or replicate components and distribute inputs among them. Reactive Systems support predictive, as well as Reactive, scaling algorithms by providing relevant live performance measures.
+
+4.Message Driven: 
+Reactive Systems rely on asynchronous message-passing to establish a boundary between components that ensures loose coupling, isolation and location transparency. This boundary also provides the means to delegate failures as messages.Location transparent messaging as a means of communication makes it possible for the management of failure to work with the same constructs and semantics across a cluster or within a single host.
+
+
+On a nodejs perspective what you really need to meet this criteria is:
+
+
+1.Router:
+
+To create a message driven system, you need someone capable of finding and delivering messages.
+A good router also lets you create decoupled system ensuring that you don’t keep a hard reference on your code, and if you don keep a hard reference, this router also have to be ready if you try to call a service that isn’t available. So you’re free from import/require/instantiation order and your system stay responsice even if a service goes down or is deprecated.
+
+2.Immutability:
+ 
+It’s IMPOSSIBLE to distribute a system if you deal with a lot of internal states, imagine that service A calls service B with a parameter foo, if A and B are in the same machine and A relies on B changing foo internal state, this will never work on different process/machines , so if you don’t ensure immutability on day one of your system implementation you cant never say your system is distributable.
+
+3.Serializable objects: 
+
+Javascript functions are just not serializable, i see on the internet a lot of people trying to create packages to serialize functions using the function code, but none of them will ever work with curry, trying to serialize functions are just unsafe and should be avoid as you avoid eval. This way cant create services based on callbacks you need to use promises.
+
+4.Modules/Namespace: 
+
+When dealing with lots of services you need some way to avoid name collision on your router, so you need a good namespace based approach
+
+5.Plugins: 
+
+Thats the way Studio uses to deal with other more specific criterias like realtime perfomance metrics, timeouts, retries, better error tracking, service mocks and other cool stuffs
+
+
+

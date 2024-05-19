@@ -1,0 +1,280 @@
+ASDM:
+	Advanced Software Development Methodology
+
+
+Day1:
+
+     Introduction to Software Engg.
+     Roadmap for ASDM module
+     SDLC--Waterfall Model
+     SRS
+
+Day 2:
+	Spiral Model SDLC
+	Agile Methodology
+	Object Oriented Approach
+ 	UML- Use Case
+
+Day 3:
+
+Agenda:
+	Desktop Applications
+	
+	Distributed Applications
+		Client Server Architecture
+		Web Based Application Structure
+		Infrastructure for Web based Solution
+		DataCenter, Rack Servers, Blade servers,-----Actual Web, app, d/b servers
+
+	Cloud Ready Applications
+		SOA (Service Oriented Architecture)
+		Software As A Service (SAAS)
+		MicroServices Architecture
+		Agile Methodolody in Implementing Micro services
+		Scrum, Jira software
+	
+	Introduction Cloud Computing
+		 Platform As A Service  (PAAS)
+		 Infrastructure As Service (IAAS)
+
+
+
+	Cloud Ready Applications:
+
+	 Cloud------------Hosting Enviornment-------- Hardware
+			  Hardware:--> ol
+			  Computation:--> Processor + RAM + ROM
+			  Processor:-->	 CPU + GPU
+
+	 Application------Online Application----------Software
+	
+	 Application: 
+
+	 Desktop Application-------mspaint, notepad, Visual studio, eclipse
+					 (Native Application)
+					 (stand alone application)
+					  data + application executable--- exe, txt
+					  Console Application	    ( CUI)
+					  Windwos Based Application ( GUI)
+					  hosted on Single Operating System
+					  accessed by one user at a time
+					  Single User Application
+
+					  Process--- exe code + data
+  
+
+       Distributed Application----
+			Multiuser Application
+
+	 based on Client Server Model
+
+	Physical Infrastructure at data center
+
+			
+	Enduser1--machine------( Client Application Thin client)----  -------Networking-- 	Server Machine
+							  					(Server Application)
+							  						logic + data
+	Enduser2--machine------ (Client Application Thin client)----
+	Enduser3--machine------ (Client Application Thin client)----
+	Enduser4--machine------ (Client Application Thin client)---- RPC--
+								     Socket Programming
+								     TCP
+								     UDP 
+
+	Enduser5--machine------ (Client Application Thin client)----
+	Enduser6--machine------ (Client Application Thin client)----
+
+
+
+	In distributed Enviornment:
+		
+
+	End user invoke :
+
+	Client Application
+		(could be browser)
+		(dedicated windows application) to talk to server
+		(postman)
+
+	( there might be custom java application )---communicating other server application
+
+	Client application sends a request--------channelised through Network--- 
+						  ( TCP/IP)---state full protocol-- bandwidth consumed more
+						  ( HTTP)-----state less protocol-- efficient bandwidth used
+
+		-->Server application receives a request and process request
+				   sends response to remote client who initiated request
+
+	IPC--> Inter Process Communication
+			two applications installed on same machine
+			and they are exchanging information
+			process1--- IPC---process2
+			
+	RPC--> Remote Procedural Call
+		( RMI)
+
+	Online Application are always Centralized internet application:
+
+	Centralized Application with data processing accessed via Rich Web Client ( browser chrome, Edge, firefox,safari,,,,etc)
+
+	Client--->browser
+	Client--->Postman
+	Client Application----> some another technology Application
+	Server Application
+	
+	Server-- scalable computation + high Storage + high Speed network
+	Companies Data Center
+		Server Room:
+			Multiple Racks:
+				Rack Server:-----
+					Blade Server------
+							Linux based servers/
+							Windows servers
+        (  Transflower Cluster)
+
+	1.machine----- 16 GB RAM + i7 (8 core)
+	2.machine----- 16 GB RAM + i7
+	3.machine----- 16 GB RAM + i7
+	4.machine----- 16 GB RAM + i7
+	5.machine----- 16 GB RAM + i7
+	6.machine----- 16 GB RAM + i7
+	7.machine----- 16 GB RAM + i7
+	8.machine----- 16 GB RAM + i7
+	9.machine----- 16 GB RAM + i7
+
+	 80 GB  RAM +  40 core processors  ( Distributed Computational Resources)
+
+	connected using networking--- fiber optics cable
+
+	Now deploy your  Web Applcation on Multiserver infrastructure
+
+	Online Application: (Software)
+		Complete functionality of Application have been distributed on different  servers
+
+		 mores Webservers  + more than Application Server + 
+			    database cluster (no of dabase servers)+
+			    			high storage back servers
+
+------------------
+
+		Notepad Application	 (Gangu Teli)-----desktop application ( windows appln)
+					exe + txt
+
+		Online shopping Application   (Raja Bhoj)-
+
+	
+		Webbased application ( Full stack Application)
+
+			----->	Web site + Web services+
+					 + dedicate Application services+
+					 + database  in the form of  tera bytes, peta bytes
+
+
+			Web site--- WEB PAGES:
+					  static web pages  (html) home, about us, contact us, services 
+						
+					  dynamice web pages
+							JSP + servelet
+ 								
+							( Single html + javascript framework SPA)
+							      ( SPA)--
+							      Angular Application:
+								( muiltiple components----- html, ts,. spec.,
+								  mulitole directives,
+								  mulitple services, (injectable services---- consume rest api)
+								  Router,,,,,etc.)
+				    state management technique
+							session , cache
+				    Security
+							Authentication, Authorization
+				    Personalization
+							User profile management
+				    Multilingual Support
+							localization ( Internationalization)
+
+				    Responsive UI Rendering
+							Bootstrap
+
+			
+				Web services--
+
+				    REST API ( Spring Boot Api)
+				    CRUD REST API
+
+			Dedicate Application services---
+
+					indexing ( sorting,  Bussiness Queries)
+					social media , Trending logic--(likes, comments, hashtag)
+					Business Logic----(Core Java logic----pojo, collection framework, actual logic )
+					Data Access Logic-- (DAO)----( hibernate, JPA, JDBC)
+					Transaction management
+					Reliable Queueing mechanism
+
+		       External Data Access services---
+					 accesssing database data
+					 accessing streaming data
+					 accessing other web services-----------payment gateway
+		       
+			Inhouse database management System
+					 Oracle Cluster
+							RDBMS database
+					 Non SQL Database
+							MongoDB database 
+					 Media servers
+							images, documents,
+							video files
+
+
+
+		SOA (Service Oriented Architecture):
+		
+			Architecture which is used for designing  complete Solution in the form of 
+				Reusable Web services
+				
+				SpringBoot API
+
+				Authetication Service   http://124.23.54.34/api/authservice urls----Web app----bll--dao---d/b
+							CRUD operations
+				mumbai datacenter
+
+				Catalog Service		http://124.23.54.34/api/catalogservice----Web app----bll--dao---d/b
+							CRUD operations
+				chennai datacenter
+
+				Shopping Cart Service	http://124.23.54.34/api/cartservice----Web app----bll--dao---d/b
+							CRUD operations
+
+				Delhi datacenter
+
+				OrderProcessing Service http://124.23.54.34/api/orderservice----Web app----bll--dao---d/b
+							CRUD operations
+
+				Payment Service		http://124.23.54.34/api/orderservice----Web app----bll--dao---d/b
+							CRUD operations
+
+				Shipping Service	http://124.23.54.34/api/Shippingservice----Web app----bll--dao---d/b
+							CRUD operations
+
+				CRM Service		http://124.23.54.34/api/CRMservice----Web app----bll--dao---d/b
+							CRUD operations
+
+		
+					
+		Software As A Service (SAAS)
+		MicroServices Architecture
+		
+
+
+
+
+		Agile Methodolody in Implementing Micro services
+		Scrum, Jira software
+		Introduction Cloud Computing
+		 Platform As A Service  (PAAS)
+		 Infrastructure As Service (IAAS)
+
+
+
+
+
+
